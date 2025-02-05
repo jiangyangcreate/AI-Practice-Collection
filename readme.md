@@ -13,7 +13,7 @@
 
 | 项目名称 | 描述 |  难度 | 链接 |
 | -------- | -------- | -------- | -------- |
-| Socail Mood | 社交媒体分析 | 初级 | [Socail Mood](/Socail-Mood) |
+| Socail Mood | 社交媒体分析 | 初级 | [Socail Mood](/SocailMood) |
 
 
 

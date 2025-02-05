@@ -2,7 +2,7 @@
 
 该项目适合作为小型的项目原型，适合教学和练手。最初这个项目的灵感源于我的个人需求，我需要一个工具来查看主流话题，同时又不想下载一堆 APP 来接收推送。
 
-项目开源地址：[https://github.com/jiangyangcreate/AI-Practice-Collection/SocialMood](https://github.com/jiangyangcreate/AI-Practice-Collection/SocialMood)
+项目开源地址：[https://github.com/jiangyangcreate/AI-Practice-Collection/SocialMood](https://github.com/jiangyangcreate/AI-Practice-Collection/tree/main/SocailMood)
 
 ## 项目目录结构
 

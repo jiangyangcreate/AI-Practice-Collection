@@ -1,0 +1,15 @@
+wordcloud
+jieba
+pillow
+beautifulsoup4
+openpyxl
+requests
+imageio
+playwright
+nltk
+snownlp
+scikit-learn
+torch
+pyecharts
+accelerate>=0.26.0
+ollama

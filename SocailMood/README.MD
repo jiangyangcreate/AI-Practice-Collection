@@ -4,10 +4,6 @@
 
 最初这个项目的灵感源于我的个人需求，我需要一个工具来查看主流话题，同时又不想下载一堆 APP 来接收推送。源项目最终的数据会以邮件的形式发送到我的邮箱，这里延申为使用github pages来展示。
 
-项目开源地址：[https://github.com/jiangyangcreate/SocialMood](https://github.com/jiangyangcreate/SocialMood)
-
-项目查看地址：[https://jiangyangcreate.github.io/AI_Project/SocialMood/](https://jiangyangcreate.github.io/AI_Project/SocialMood/)
-
 ## 使用流程
 
 ```bash

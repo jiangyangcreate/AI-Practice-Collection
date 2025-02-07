@@ -14,6 +14,7 @@
 | 项目名称 | 描述 |  难度 | 链接 |
 | -------- | -------- | -------- | -------- |
 | Socail Mood | 社交媒体分析 | 初级 | [Socail Mood](/SocailMood) |
+| XiaoAi_Agent | 小爱同学调用非米家生态设备 | 初级 | [XiaoAi_Agent](/XiaoAi_Agent) |
 
 
 

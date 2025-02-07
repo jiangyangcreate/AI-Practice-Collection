@@ -1,0 +1,4 @@
+aiohttp
+mutagen
+rich
+black

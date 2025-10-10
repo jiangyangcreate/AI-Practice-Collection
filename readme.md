@@ -15,6 +15,7 @@
 | -------- | -------- | -------- | -------- |
 | Socail Mood | 社交媒体分析 | 初级 | [Socail Mood](/SocailMood) |
 | XiaoAi_Agent | 小爱同学调用非米家生态设备 | 初级 | [XiaoAi_Agent](/XiaoAi_Agent) |
+| Gazebo_CV | 虚拟仿真学习自动驾驶 | 中级 | [Gazebo_CV](/Gazebo_CV) |
 
 
 

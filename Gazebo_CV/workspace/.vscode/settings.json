@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/local/lib/python3.12/dist-packages",
+        "/home/allen/workspace/install"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/local/lib/python3.12/dist-packages",
+        "/home/allen/workspace/install"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.languageServer": "None"
+}
+

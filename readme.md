@@ -16,6 +16,7 @@
 | Socail Mood | 社交媒体分析 | 初级 | [Socail Mood](/SocailMood) |
 | XiaoAi_Agent | 小爱同学调用非米家生态设备 | 初级 | [XiaoAi_Agent](/XiaoAi_Agent) |
 | Gazebo_CV | 虚拟仿真学习自动驾驶 | 中级 | [Gazebo_CV](/Gazebo_CV) |
-
-
-
+| knn_network | 基于KNN算法的图像分类系统 | 初级 | [knn_network](/knn_network) |
+| Blackjack | 21点（Blackjack）游戏实现 | 初级 | [Blackjack](/Blackjack) |
+| gemini-fullstack-langgraph-quickstart | 基于Gemini和LangGraph的全栈AI应用 | 中级 | [gemini-fullstack-langgraph-quickstart](/gemini-fullstack-langgraph-quickstart) |
+| file_ask | 基于RAG技术的智能文档问答系统 | 中级 | [file_ask](/file_ask) |

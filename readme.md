@@ -19,4 +19,4 @@
 | knn_network | 基于KNN算法的图像分类系统 | 初级 | [knn_network](/knn_network) |
 | Blackjack | 21点（Blackjack）游戏实现 | 初级 | [Blackjack](/Blackjack) |
 | gemini-fullstack-langgraph-quickstart | 基于Gemini和LangGraph的全栈AI应用 | 中级 | [gemini-fullstack-langgraph-quickstart](/gemini-fullstack-langgraph-quickstart) |
-| file_ask | 基于RAG技术的智能文档问答系统 | 中级 | [file_ask](/file_ask) |
+| check_rubbish | 基于AG技术的智能文档问答系统、Fastapi+langchain+Vue| 中级 | [check_rubbish](/check_rubbish) |

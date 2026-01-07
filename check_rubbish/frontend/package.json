@@ -1,0 +1,21 @@
+{
+  "name": "waste-classification-frontend",
+  "version": "1.0.0",
+  "description": "垃圾识别前端应用",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "marked": "^17.0.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "selfsigned": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}

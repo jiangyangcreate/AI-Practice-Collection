@@ -18,7 +18,12 @@ dependencies = [
     "langgraph-api",
     "fastapi",
     "google-genai",
-    "langchain-openai==0.3.35"
+    "langchain-openai==0.3.35",
+    "redis>=5.0.0",
+    "langchain-redis>=0.1.0",
+    "psycopg2-binary>=2.9.9",
+    "sqlalchemy>=2.0.0",
+    "hashlib-compat>=1.0.0"
 ]
 
 

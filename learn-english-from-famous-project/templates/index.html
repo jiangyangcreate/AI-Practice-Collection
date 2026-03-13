@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>从知名 Python 项目学英语</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind via CDN，纯 HTML + Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 min-h-screen">
+    <div class="max-w-4xl mx-auto px-4 py-10">
+      <header class="mb-10">
+        <h1 class="text-3xl font-bold mb-2">
+          从知名 Python 项目学英语
+        </h1>
+        <p class="text-slate-400 text-sm">
+          输入完整 GitHub 仓库 URL 或本地绝对路径，自动提取标识符并生成英文词表（JSONL）。
+        </p>
+      </header>
+
+      {% if message %}
+      <div class="mb-6 rounded border border-amber-500/40 bg-amber-500/10 px-4 py-3 text-sm text-amber-100">
+        {{ message }}
+      </div>
+      {% endif %}
+
+      <!-- 搜索框 -->
+      <section class="mb-10">
+        <form method="post" action="/analyze" class="space-y-3">
+          <label class="block text-sm font-medium text-slate-200"
+            >项目地址或本地路径</label
+          >
+          <input
+            type="text"
+            name="project_input"
+            placeholder="例如：https://github.com/psf/requests 或 C:\path\to\project"
+            class="w-full rounded-md border border-slate-700 bg-slate-900/80 px-3 py-2 text-sm focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500"
+            required
+          />
+          <p class="text-xs text-slate-400">
+            仅支持完整 GitHub 仓库 URL 与本机绝对路径目录。
+          </p>
+          <button
+            type="submit"
+            class="inline-flex items-center rounded-md bg-sky-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-slate-950"
+          >
+            启动分析任务
+          </button>
+        </form>
+      </section>
+
+      <!-- GitHub Trending 前 5 个项目 -->
+      <section class="mb-10">
+        <h2 class="text-lg font-semibold mb-3">
+          本月 GitHub Python 趋势项目（前 5 名）
+        </h2>
+        <div class="overflow-hidden rounded-md border border-slate-800 bg-slate-900/60">
+          <table class="min-w-full text-sm">
+            <thead class="bg-slate-900/80 text-slate-400">
+              <tr>
+                <th class="px-3 py-2 text-left font-medium">项目</th>
+                <th class="px-3 py-2 text-right font-medium">本月 Star 数</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for full_name, stars, url in trending %}
+              <tr class="border-t border-slate-800/80 hover:bg-slate-800/60">
+                <td class="px-3 py-2">
+                  <a
+                    href="{{ url }}"
+                    target="_blank"
+                    class="text-sky-400 hover:text-sky-300 hover:underline"
+                    >{{ full_name }}</a
+                  >
+                </td>
+                <td class="px-3 py-2 text-right tabular-nums text-slate-100">
+                  {{ stars }}
+                </td>
+              </tr>
+              {% else %}
+              <tr>
+                <td
+                  colspan="2"
+                  class="px-3 py-3 text-center text-slate-400 text-sm"
+                >
+                  暂时无法获取 GitHub Trending。
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 已经被抽取完成的项目 -->
+      <section>
+        <h2 class="text-lg font-semibold mb-3">
+          已完成的项目词表
+        </h2>
+        <div class="rounded-md border border-slate-800 bg-slate-900/60">
+          <ul class="divide-y divide-slate-800 text-sm">
+            {% for label, jsonl_name, txt_name, csv_name in completed %}
+            <li class="flex items-center justify-between px-3 py-2 hover:bg-slate-800/60">
+              <span class="text-slate-100">{{ label }}</span>
+              <div class="flex items-center gap-2">
+                <a
+                  href="/download/{{ jsonl_name }}"
+                  class="inline-flex items-center rounded bg-sky-600/80 px-2 py-1 text-xs font-medium text-white hover:bg-sky-500"
+                >
+                  JSONL
+                </a>
+                <a
+                  href="/download/{{ txt_name }}"
+                  class="inline-flex items-center rounded bg-emerald-600/80 px-2 py-1 text-xs font-medium text-white hover:bg-emerald-500"
+                >
+                  TXT
+                </a>
+                <a
+                  href="/download/{{ csv_name }}"
+                  class="inline-flex items-center rounded bg-indigo-600/80 px-2 py-1 text-xs font-medium text-white hover:bg-indigo-500"
+                >
+                  CSV
+                </a>
+              </div>
+            </li>
+            {% else %}
+            <li class="px-3 py-3 text-slate-400 text-sm">
+              目前还没有生成好的词表，先从上面的搜索框启动一次分析吧。
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+

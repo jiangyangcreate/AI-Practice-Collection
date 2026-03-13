@@ -1,60 +1,82 @@
+# 项目配置部分 - 定义项目的基本信息和元数据
 [project]
+# 项目名称
 name = "agent"
+# 项目版本号
 version = "0.0.1"
+# 项目描述信息
 description = "Backend for the LangGraph agent"
+# 项目作者信息列表
 authors = [
     { name = "Philipp Schmid", email = "schmidphilipp1995@gmail.com" },
 ]
+# 项目 README 文件路径
 readme = "README.md"
+# 项目许可证类型（MIT 许可证）
 license = { text = "MIT" }
+# Python 版本要求：需要 Python 3.11 或更高版本，但低于 4.0
 requires-python = ">=3.11,<4.0"
+# 项目运行时依赖包列表
 dependencies = [
-    "langgraph>=0.2.6",
-    "langchain>=0.3.19",
-    "langchain-google-genai",
-    "python-dotenv>=1.0.1",
-    "langgraph-sdk>=0.1.57",
-    "langgraph-cli",
-    "langgraph-api",
-    "fastapi",
-    "google-genai",
-    "langchain-openai==0.3.35"
+    "langgraph>=0.2.6",              # LangGraph 框架，用于构建状态机工作流
+    "langchain>=0.3.19",             # LangChain 核心库，用于构建 LLM 应用
+    "langchain-google-genai",        # LangChain 的 Google Gemini AI 集成
+    "python-dotenv>=1.0.1",          # 用于从 .env 文件加载环境变量
+    "langgraph-sdk>=0.1.57",         # LangGraph SDK，用于与 LangGraph 服务交互
+    "langgraph-cli",                 # LangGraph 命令行工具
+    "langgraph-api",                 # LangGraph API 服务
+    "fastapi",                       # 现代、快速的 Web 框架，用于构建 API
+    "google-genai",                  # Google Gemini AI 官方 SDK
+    "langchain-openai==0.3.35"      # LangChain 的 OpenAI 集成（固定版本）
 ]
 
 
+# 可选依赖配置 - 这些依赖不会自动安装，需要显式指定
 [project.optional-dependencies]
-dev = ["mypy>=1.11.1", "ruff>=0.6.1"]
+# 开发环境依赖组
+dev = ["mypy>=1.11.1", "ruff>=0.6.1"]  # mypy: 静态类型检查工具; ruff: 快速 Python 代码检查器和格式化工具
 
+# 构建系统配置 - 指定如何构建和打包项目
 [build-system]
-requires = ["setuptools>=73.0.0", "wheel"]
-build-backend = "setuptools.build_meta"
+# 构建系统所需的依赖包
+requires = ["setuptools>=73.0.0", "wheel"]  # setuptools: 构建工具; wheel: 打包格式
+# 使用的构建后端
+build-backend = "setuptools.build_meta"     # 使用 setuptools 作为构建后端
 
+# Ruff 代码检查工具配置
 [tool.ruff]
+# 启用的代码检查规则类别
 lint.select = [
-    "E",    # pycodestyle
-    "F",    # pyflakes
-    "I",    # isort
-    "D",    # pydocstyle
-    "D401", # First line should be in imperative mood
-    "T201",
-    "UP",
+    "E",    # pycodestyle - Python 代码风格检查（PEP 8）
+    "F",    # pyflakes - 检测未使用的导入和变量等错误
+    "I",    # isort - 导入语句排序检查
+    "D",    # pydocstyle - 文档字符串风格检查
+    "D401", # 文档字符串第一行应使用祈使语气
+    "T201", # 打印语句检查（避免使用 print 进行调试）
+    "UP",   # pyupgrade - 自动升级 Python 语法到最新版本
 ]
+# 忽略的代码检查规则
 lint.ignore = [
-    "UP006",
-    "UP007",
-    # We actually do want to import from typing_extensions
-    "UP035",
-    # Relax the convention by _not_ requiring documentation for every function parameter.
-    "D417",
-    "E501",
+    "UP006",   # 忽略类型注解升级建议（如 List -> list）
+    "UP007",   # 忽略类型注解升级建议（如 Union -> |）
+    # 我们确实希望从 typing_extensions 导入
+    "UP035",   # 忽略 typing_extensions 导入建议
+    # 放宽约定，不要求为每个函数参数编写文档
+    "D417",    # 忽略缺少函数参数文档的警告
+    "E501",    # 忽略行长度限制（允许超过 79 字符）
 ]
+# 按文件路径忽略特定规则
 [tool.ruff.lint.per-file-ignores]
-"tests/*" = ["D", "UP"]
-[tool.ruff.lint.pydocstyle]
-convention = "google"
+"tests/*" = ["D", "UP"]  # 在 tests 目录下的文件中忽略文档字符串检查(D)和语法升级检查(UP)
 
+# Pydocstyle 文档字符串风格配置
+[tool.ruff.lint.pydocstyle]
+convention = "google"  # 使用 Google 风格的文档字符串格式
+
+# 依赖组配置（用于开发环境）
 [dependency-groups]
+# 开发依赖组
 dev = [
-    "langgraph-cli[inmem]>=0.1.71",
-    "pytest>=8.3.5",
+    "langgraph-cli[inmem]>=0.1.71",  # LangGraph CLI 工具（包含内存后端支持），用于本地开发和测试
+    "pytest>=8.3.5",                 # 测试框架，用于编写和运行单元测试
 ]

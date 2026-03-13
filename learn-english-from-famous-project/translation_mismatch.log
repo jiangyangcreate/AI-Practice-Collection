@@ -1,0 +1,58 @@
+[2026-03-13T14:28:14.917660] batch_size=20, lines=34
+INPUT:
+basic
+between
+caching
+captures
+chain
+check
+cid
+ciphertext
+classes
+clears
+col
+counter
+cp
+creates
+ctype
+dates
+dedupe
+denied
+diff
+dr
+OUTPUT:
+basic 的缩写，表示 基本的、基础的；  
+between 表示“在……之间”，常用于范围判断或区间操作；  
+caching 的缩写，表示 缓存（cache 的动名词或名词形式）；  
+captures 的缩写，表示 捕获（capture 的复数形式或动词第三人称单数）；  
+chain 表示 链、链条，常用于链式调用、链式结构（如函数链、对象链）；  
+check 表示 检查、验证；  
+cid 的缩写，常见含义包括：  
+- connection ID（连接标识符）；  
+- class ID（类标识符）；  
+- customer ID（客户标识符）；  
+- content ID（内容标识符）；  
+- 在数据库中也可能指 cluster ID；  
+ciphertext 表示 密文（加密后的不可读数据）；  
+classes 的缩写，表示 类（class 的复数形式，面向对象编程中的类）；  
+clears 的缩写，表示 清除（clear 的第三人称单数或复数形式）；  
+col 的缩写，表示 column（列），常用于表格、数据库或数组操作；  
+counter 表示 计数器（用于统计次数的变量或对象）；  
+cp 的缩写，常见含义包括：  
+- copy（复制，如 Linux/macOS 中的 cp 命令）；  
+- checkpoint（检查点）；  
+- 在某些上下文中也可能指 CPU（但更常见为 cpu）；  
+creates 的缩写，表示 创建（create 的第三人称单数形式）；  
+ctype 的缩写，常见含义包括：  
+- character type（字符类型）；  
+- 在 C 语言或 Python 的 ctype 模块中特指 C 语言兼容的数据类型；  
+dates 的缩写，表示 日期（date 的复数形式）；  
+dedupe 的缩写，表示 去重（deduplicate 的简写，即删除重复项）；  
+denied 表示 被拒绝、被禁止（deny 的过去分词或过去式）；  
+diff 的缩写，表示 差异（difference 的简写），常用于比较文件或数据差异；  
+dr 的缩写，常见含义包括：  
+- directory（目录，如 Windows 中的驱动器标识符 C:\、D:\ 中的 D 表示 drive，dr 可能指 drive）；  
+- doctor（博士，如 Ph.D. 中的 Dr.）；  
+- 在某些系统中也可能指 data record（数据记录）；  
+- 在编程中有时表示 debug record 或 device register；
+========================================

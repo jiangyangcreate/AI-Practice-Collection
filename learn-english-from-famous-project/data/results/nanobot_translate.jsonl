@@ -1,0 +1,1480 @@
+{"word": "self", "translation": "self 的缩写，表示“自身”，常用于类方法中指代当前实例；  "}
+{"word": "str", "translation": "str 的缩写，表示 string（字符串）；  "}
+{"word": "Config", "translation": "Config 的缩写，表示 Configuration（配置）；  "}
+{"word": "Message", "translation": "Message 的缩写，表示消息；  "}
+{"word": "Path", "translation": "Path 的缩写，表示路径（常用于文件或URL路径）；  "}
+{"word": "Channel", "translation": "Channel 的缩写，表示通道（如通信通道、消息通道、频道等）；  "}
+{"word": "E", "translation": "E 的缩写，通常表示 Error（错误）、Event（事件）或 Exception（异常），具体含义依上下文而定；  "}
+{"word": "id", "translation": "id 的缩写，表示 identifier（标识符）；  "}
+{"word": "Get", "translation": "Get 的缩写，表示获取（动词，常用于函数名，如 get_data）；  "}
+{"word": "Session", "translation": "Session 的缩写，表示会话（如 HTTP 会话、数据库会话等）；  "}
+{"word": "Content", "translation": "Content 的缩写，表示内容；  "}
+{"word": "Client", "translation": "Client 的缩写，表示客户端；  "}
+{"word": "msg", "translation": "msg 的缩写，是 message 的简写，表示消息；  "}
+{"word": "Tool", "translation": "Tool 的缩写，表示工具（如编程工具、AI 工具等）；  "}
+{"word": "T", "translation": "T 的缩写，常用于泛型类型参数（如 Type T），或表示 Time/Token/Task 等，具体含义依上下文而定；  "}
+{"word": "L", "translation": "L 的缩写，常用于表示 List（列表）、Length（长度）或 Level（层级），也可能是泛型参数；  "}
+{"word": "Logger", "translation": "Logger 的缩写，表示日志记录器（logging 工具）；  "}
+{"word": "M", "translation": "M 的缩写，常用于表示 Model（模型）、Module（模块）、Message（消息）或泛型参数；  "}
+{"word": "asyncio", "translation": "asyncio 的完整形式，表示异步 I/O 操作的标准库（asynchronous input/output）；  "}
+{"word": "Provider", "translation": "Provider 的缩写，表示提供者（如服务提供者、数据提供者、AI 模型提供者等）。"}
+{"word": "pytest", "translation": "pytest：Python 测试框架 pytest 的名称，用于自动化测试；  "}
+{"word": "A", "translation": "A：字母 A，可能表示“Accept”“Allow”“API”“Application”等，需结合上下文；  "}
+{"word": "Response", "translation": "Response：响应，通常指 HTTP 响应对象或函数返回的响应数据；  "}
+{"word": "I", "translation": "I：字母 I，可能表示“Identifier”“Index”“Input”“Interface”等，或为变量名（如循环索引）；  "}
+{"word": "messages", "translation": "messages：message 的复数形式，表示消息集合，如聊天记录、系统消息等；  "}
+{"word": "Text", "translation": "Text：文本，通常指字符串类型或富文本内容；  "}
+{"word": "File", "translation": "File：文件，表示文件对象或文件路径；  "}
+{"word": "Loop", "translation": "Loop：循环，可能指循环结构、事件循环（event loop）或循环逻辑；  "}
+{"word": "result", "translation": "result：结果，通常表示函数执行后的返回值或计算结果；  "}
+{"word": "S", "translation": "S：字母 S，可能表示“String”“Status”“Server”“Session”“Seconds”等，需结合上下文；  "}
+{"word": "Dict", "translation": "Dict：dictionary 的缩写，表示字典（键值对集合）；  "}
+{"word": "name", "translation": "name：名称，通常表示对象、变量或函数的名称；  "}
+{"word": "R", "translation": "R：字母 R，可能表示“Result”“Response”“Request”“Return”“Region”等，或为变量名；  "}
+{"word": "Test", "translation": "Test：测试，常用于测试函数、测试类或测试用例；  "}
+{"word": "P", "translation": "P：字母 P，可能表示“Parameter”“Path”“Port”“Process”“Python”等，或为变量名；  "}
+{"word": "chat", "translation": "chat：聊天，通常指对话、会话或聊天接口；  "}
+{"word": "List", "translation": "List：列表，表示有序可变的集合（Python 中的 list 类型）；  "}
+{"word": "Media", "translation": "Media：媒体，可能指图片、音频、视频等多媒体资源；  "}
+{"word": "Key", "translation": "Key：键，常用于字典键、加密密钥、热键等；  "}
+{"word": "O", "translation": "O：字母 O，可能表示“Object”“Option”“Output”“Origin”等，或为变量名；"}
+{"word": "mark", "translation": "mark 的缩写，通常表示标记（mark）、标注；  "}
+{"word": "Any", "translation": "Any 表示“任意”类型，在类型注解中常用于泛型或动态类型；  "}
+{"word": "Mock", "translation": "Mock 表示“模拟”，常用于测试中的模拟对象（mock object）；  "}
+{"word": "Type", "translation": "Type 表示“类型”，如数据类型、类类型等；  "}
+{"word": "N", "translation": "N 通常为 number 的缩写，表示数量、次数或维度大小；  "}
+{"word": "Error", "translation": "Error 表示“错误”，程序运行中发生的异常或错误信息；  "}
+{"word": "Event", "translation": "Event 表示“事件”，如用户操作、系统触发的事件对象；  "}
+{"word": "append", "translation": "append 表示“追加”，常用于向列表等容器末尾添加元素；  "}
+{"word": "Bus", "translation": "Bus 表示“总线”，如硬件总线、消息总线（message bus）；  "}
+{"word": "Dir", "translation": "Dir 是 directory 的缩写，表示目录路径；  "}
+{"word": "C", "translation": "C 通常为 character、count、constant 或 class 的缩写，具体含义依上下文而定；  "}
+{"word": "len", "translation": "len 是 length 的缩写，表示长度（如字符串、列表等的长度）；  "}
+{"word": "Model", "translation": "Model 表示“模型”，如机器学习模型、数据模型（data model）；  "}
+{"word": "skill", "translation": "skill 表示“技能”，常用于游戏、机器人或能力系统中；  "}
+{"word": "Fake", "translation": "Fake 表示“伪造的”，常用于测试中的假对象（fake object）；  "}
+{"word": "data", "translation": "data 表示“数据”，泛指程序处理的信息集合；  "}
+{"word": "monkeypatch", "translation": "monkeypatch 表示“猴子补丁”，指在运行时动态修改或替换代码的行为；  "}
+{"word": "parts", "translation": "parts 表示“部分”或“组件”，如路径分段、模块划分等；  "}
+{"word": "tmp", "translation": "tmp 是 temporary 的缩写，表示临时的，如临时文件（tmp file）；  "}
+{"word": "App", "translation": "App 是 application 的缩写，表示应用程序（application）；"}
+{"word": "workspace", "translation": "workspace 的缩写，表示工作区（开发或任务执行的环境空间）；  "}
+{"word": "Call", "translation": "Call 的首字母大写，通常为 call 的过去式/过去分词或名词，表示调用（如函数调用、API调用）；  "}
+{"word": "Payload", "translation": "Payload 的专有名词，表示载荷（如网络请求中携带的有效数据内容）；  "}
+{"word": "Store", "translation": "Store 的首字母大写，表示存储（如数据存储、状态管理中的 store 模块）；  "}
+{"word": "Task", "translation": "Task 的首字母大写，表示任务（如异步任务、调度任务）；  "}
+{"word": "isinstance", "translation": "isinstance 的完整拼写，Python 内置函数，用于判断对象是否属于指定类型；  "}
+{"word": "json", "translation": "json 的完整拼写，JavaScript Object Notation 的缩写，一种轻量级数据交换格式；  "}
+{"word": "Room", "translation": "Room 的首字母大写，表示房间（如多人协作系统中的虚拟房间、聊天室等）；  "}
+{"word": "calls", "translation": "calls 的复数形式，为 call 的复数，表示多次调用或调用记录；  "}
+{"word": "Send", "translation": "Send 的首字母大写，表示发送（如发送消息、发送请求）；  "}
+{"word": "on", "translation": "on 的完整拼写，介词，表示“在……上”或“当……时”，常用于事件监听（如 on_click）；  "}
+{"word": "Job", "translation": "Job 的首字母大写，表示作业、任务（常用于任务队列、批处理系统）；  "}
+{"word": "Tools", "translation": "Tools 的复数形式，tool 的复数，表示工具（如辅助函数、实用工具集合）；  "}
+{"word": "D", "translation": "D 的单字母缩写，常见含义包括：Directory（目录）、Data（数据）、Debug（调试）、Device（设备）等，需结合上下文；  "}
+{"word": "re", "translation": "re 的完整拼写，Python 标准库模块，regular expression（正则表达式）的缩写；  "}
+{"word": "Spec", "translation": "Spec 的缩写，为 specification（规范、规格说明）的简写；  "}
+{"word": "int", "translation": "int 的完整拼写，Python 内置类型，表示整数（integer）；  "}
+{"word": "Async", "translation": "Async 的首字母大写，为 asynchronous（异步）的缩写，常用于异步编程（如 async/await）；  "}
+{"word": "Base", "translation": "Base 的首字母大写，表示基类、基础类（如类继承中的父类）；  "}
+{"word": "to", "translation": "to 的完整拼写，介词，表示“到、向”，常用于路径、转换或事件绑定（如 to_string、on_to）；"}
+{"word": "Context", "translation": "Context：上下文（常指程序运行时的环境或调用上下文）；  "}
+{"word": "Exception", "translation": "Exception：异常（Python 中用于处理错误的类）；  "}
+{"word": "Value", "translation": "Value：值（表示某个变量或表达式的具体数值或内容）；  "}
+{"word": "kwargs", "translation": "kwargs：keyword arguments 的缩写，表示关键字参数（Python 中用于接收不定数量命名参数的字典）；  "}
+{"word": "Console", "translation": "Console：控制台（通常指命令行界面或程序的输出终端）；  "}
+{"word": "bool", "translation": "bool：布尔类型（Boolean 的缩写，表示 True 或 False 两种状态）；  "}
+{"word": "U", "translation": "U：可能是 User（用户）的缩写，也可能是 Unicode（统一码）的缩写，需结合上下文；  "}
+{"word": "Cron", "translation": "Cron：定时任务调度工具（源自 cron daemon，Unix/Linux 系统中用于周期性执行任务）；  "}
+{"word": "F", "translation": "F：可能是 Format（格式）、File（文件）、Function（函数）或 Field（字段）的缩写，常见于模板或配置中；  "}
+{"word": "Api", "translation": "Api：API 的变体拼写（Application Programming Interface，应用程序编程接口）；  "}
+{"word": "print", "translation": "print：打印（Python 内置函数，用于将信息输出到标准输出设备如控制台）；  "}
+{"word": "is", "translation": "is：是（Python 关键字，用于判断两个对象是否为同一对象，即身份比较）；  "}
+{"word": "Bot", "translation": "Bot：机器人（常指自动化程序，如聊天机器人 chatbot）；  "}
+{"word": "user", "translation": "user：用户（表示系统中的使用者或客户端）；  "}
+{"word": "Last", "translation": "Last：最后的（常用于表示最近一次的记录或状态，如 last message、last login）；  "}
+{"word": "Memory", "translation": "Memory：内存（指程序运行时的 RAM 存储空间，或聊天系统中的对话历史记忆）；  "}
+{"word": "Outbound", "translation": "Outbound：出站的（常用于网络通信，指向外发送的数据或请求）；  "}
+{"word": "Reply", "translation": "Reply：回复（指对某条消息或请求的响应内容）；  "}
+{"word": "handled", "translation": "handled：已处理的（动词 handle 的过去分词，表示已被成功处理的事件或异常）；  "}
+{"word": "strip", "translation": "strip：去除（Python 字符串方法，用于移除字符串首尾指定字符，默认为空白符）；"}
+{"word": "J", "translation": "J：通常为 Java 的缩写，指 Java 编程语言；也可能是 JavaScript 的缩写；在某些上下文中也可能是 Just（仅）、Job（任务）等单词的首字母；  "}
+{"word": "X", "translation": "X：常为 variable（变量）或 unknown（未知量）的占位符；也可能是 XML（可扩展标记语言）的缩写；在 API 路径中常表示“扩展”或“未知”；  "}
+{"word": "Body", "translation": "Body：表示“主体”，在 HTTP 请求/响应中指请求体或响应体内容；也可指物理上的“身体”，或程序中核心数据部分；  "}
+{"word": "item", "translation": "item：表示“项”、“条目”、“元素”，常用于列表、集合或字典中的单个数据单元；  "}
+{"word": "H", "translation": "H：常为 Height（高度）、Header（请求头）的缩写；在 HTML 中可能指 Heading（标题）标签（如 `<h1>` 中的 H）；也可能是 Hour（小时）或 Host（主机）的缩写；  "}
+{"word": "make", "translation": "make：动词，表示“制作”、“创建”；在编程中常用于构建（如 `make` 命令用于编译构建项目）；  "}
+{"word": "url", "translation": "url：Uniform Resource Locator 的缩写，统一资源定位符，即网址；  "}
+{"word": "Group", "translation": "Group：表示“组”，常用于将多个对象、用户或任务归类管理；在 UI 中可能指分组控件；  "}
+{"word": "Agent", "translation": "Agent：表示“代理”、“智能体”，在 AI/软件系统中常指具备自主行为的智能实体（如 LLM Agent）；  "}
+{"word": "Request", "translation": "Request：表示“请求”，常指 HTTP 请求，或程序中对资源、服务的调用请求；  "}
+{"word": "Handle", "translation": "Handle：动词表示“处理”，名词表示“句柄”（如文件句柄、窗口句柄），是操作系统中用于标识资源的引用；  "}
+{"word": "Info", "translation": "Info：Information 的缩写，表示“信息”，常用于存储元数据或状态描述的对象/字段；  "}
+{"word": "args", "translation": "args：arguments 的缩写，表示函数或命令的参数列表；  "}
+{"word": "sender", "translation": "sender：表示“发送者”，常用于事件处理或消息传递中标识消息的发出方；  "}
+{"word": "Create", "translation": "Create：动词，表示“创建”，常用于函数名（如 `create_user`）表示新建资源的操作；  "}
+{"word": "tasks", "translation": "tasks：task 的复数形式，表示“任务”，在并发编程或多线程中指待执行的工作单元；  "}
+{"word": "G", "translation": "G：常为 Giga（十亿，10⁹）的单位前缀（如 GB 表示千兆字节）；也可能是 Group（组）、Geometry（几何）、Game（游戏）等单词的首字母；在某些上下文中表示“好”（good）的俚语缩写；  "}
+{"word": "Simple", "translation": "Simple：表示“简单的”，常用于命名简洁、轻量级的类、函数或模块（如 `SimpleAgent`、`SimpleField`）；  "}
+{"word": "Field", "translation": "Field：表示“字段”，在数据库、表单、数据结构中指单个数据项；在面向对象编程中指类的成员变量；  "}
+{"word": "K", "translation": "K：常为 Kilo（千，10³）的单位前缀（如 KB 表示千字节）；也可能是 Key（键）、Kernel（内核）、Kotlin（编程语言）等单词的首字母；在某些上下文中表示“千”（如 1K = 1000）；"}
+{"word": "Namespace", "translation": "Namespace：命名空间（Namespace 的完整形式），用于组织和隔离变量、函数等标识符的作用域；  "}
+{"word": "metadata", "translation": "metadata：元数据（metadata 的完整形式），描述数据的数据，如文件属性、模型参数等；  "}
+{"word": "Sessions", "translation": "Sessions：会话（Session 的复数形式），常指程序运行中的交互会话或数据库连接会话；  "}
+{"word": "start", "translation": "start：启动、开始（start 的原形），表示启动某个进程、任务或服务；  "}
+{"word": "Typing", "translation": "Typing：类型提示（Typing 的完整形式），Python 中用于类型注解的模块；  "}
+{"word": "filename", "translation": "filename：文件名（filename 的完整形式），表示文件的名称；  "}
+{"word": "init", "translation": "init：初始化（__init__ 的缩写，来自 initialize），常用于类的构造函数；  "}
+{"word": "with", "translation": "with：使用、伴随（with 的原形），Python 中用于上下文管理的关键词；  "}
+{"word": "State", "translation": "State：状态（State 的完整形式），表示对象或系统的当前状况；  "}
+{"word": "Target", "translation": "Target：目标（Target 的完整形式），常指机器学习中的目标变量或任务目标；  "}
+{"word": "Matrix", "translation": "Matrix：矩阵（Matrix 的完整形式），数学中的二维数组结构；  "}
+{"word": "max", "translation": "max：最大值（maximum 的缩写），表示取最大值的操作或变量；  "}
+{"word": "Agents", "translation": "Agents：智能体（Agent 的复数形式），在强化学习或多智能体系统中指自主决策的实体；  "}
+{"word": "token", "translation": "token：令牌、标记（token 的原形），如 API 访问令牌、NLP 中的词元；  "}
+{"word": "Bytes", "translation": "Bytes：字节（Byte 的复数形式），数据存储的基本单位；  "}
+{"word": "running", "translation": "running：运行中（run 的现在分词/形容词形式），表示正在执行的状态；  "}
+{"word": "old", "translation": "old：旧的（old 的原形），表示较早版本或过时的数据/对象；  "}
+{"word": "setattr", "translation": "setattr：设置属性（setattr 的完整形式，set attribute 的缩写），Python 内置函数，用于动态设置对象属性；  "}
+{"word": "Schedule", "translation": "Schedule：调度（Schedule 的完整形式），如任务调度、计划安排；  "}
+{"word": "lines", "translation": "lines：行（line 的复数形式），常指文本文件中的行数或代码行；"}
+{"word": "set", "translation": "set 的缩写，表示集合（Python 中的数据结构）或设置（动词）；  "}
+{"word": "tokens", "translation": "tokens 的复数形式，表示标记（如自然语言处理中的词元、编程语言中的词法单元）；  "}
+{"word": "getattr", "translation": "getattr 的缩写，表示 get attribute，用于获取对象的属性值；  "}
+{"word": "raw", "translation": "raw 的缩写，表示原始的、未经处理的（如 raw data 原始数据）；  "}
+{"word": "Defaults", "translation": "Defaults 的复数形式，表示默认值集合，通常指默认参数或默认配置；  "}
+{"word": "Web", "translation": "Web 的缩写，表示万维网（World Wide Web）；  "}
+{"word": "Upload", "translation": "Upload 的动词原形，表示上传（如文件上传）；  "}
+{"word": "Y", "translation": "Y 的单个大写字母，常表示“是/确认”（Yes 的首字母），在交互式提示中常见；  "}
+{"word": "Builder", "translation": "Builder 的单数形式，表示构建器、构造器（设计模式中的建造者模式）；  "}
+{"word": "add", "translation": "add 的动词原形，表示添加；  "}
+{"word": "params", "translation": "params 的复数形式，是 parameters（参数）的缩写；  "}
+{"word": "Stop", "translation": "Stop 的动词原形或名词，表示停止；  "}
+{"word": "warning", "translation": "warning 的单数形式，表示警告（如运行时警告、编译警告）；  "}
+{"word": "default", "translation": "default 的单数形式，表示默认值或默认状态；  "}
+{"word": "History", "translation": "History 的单数形式，表示历史记录（如命令历史、操作历史）；  "}
+{"word": "Write", "translation": "Write 的动词原形，表示写入（如写文件、写日志）；  "}
+{"word": "code", "translation": "code 的单数形式，表示代码；  "}
+{"word": "Join", "translation": "Join 的动词原形，表示连接、加入（如字符串连接、线程等待）；  "}
+{"word": "os", "translation": "os 的缩写，表示 operating system（操作系统），Python 中常用模块名；  "}
+{"word": "paths", "translation": "paths 的复数形式，是 path（路径）的复数，表示多个文件或目录路径；"}
+{"word": "sys", "translation": "sys 的缩写，通常指 system（系统），在 Python 中常用于访问与 Python 解释器紧密相关的变量和函数；  "}
+{"word": "V", "translation": "V 可能为 Version（版本）、Value（值）、Variable（变量）或 Visual 的首字母，需结合上下文确定；  "}
+{"word": "cls", "translation": "cls 的缩写，通常指 class（类），在类方法中作为第一个参数表示类本身；  "}
+{"word": "Prompt", "translation": "Prompt 的英文原词，表示提示、提示词，常用于人机交互或大模型输入；  "}
+{"word": "Telegram", "translation": "Telegram 的专有名词，指 Telegram（一款即时通讯软件）；  "}
+{"word": "Update", "translation": "Update 的英文原词，表示更新、刷新；  "}
+{"word": "build", "translation": "build 的英文原词，表示构建、编译（如构建项目、构建镜像）；  "}
+{"word": "run", "translation": "run 的英文原词，表示运行、执行（如运行程序、运行脚本）；  "}
+{"word": "count", "translation": "count 的英文原词，表示计数、数量；  "}
+{"word": "ms", "translation": "ms 的缩写，通常指 millisecond（毫秒），也可能指 Microsoft（微软）；  "}
+{"word": "Channels", "translation": "Channels 的英文复数形式，指频道、通道（如消息队列、通信通道、Telegram 频道等）；  "}
+{"word": "Service", "translation": "Service 的英文原词，表示服务（如网络服务、后台服务）；  "}
+{"word": "execute", "translation": "execute 的英文原词，表示执行（如执行命令、执行代码）；  "}
+{"word": "Consolidated", "translation": "Consolidated 的英文原词，表示合并的、整合的（如 Consolidated Report 表示合并报告）；  "}
+{"word": "Thread", "translation": "Thread 的英文原词，表示线程（程序执行流）；  "}
+{"word": "save", "translation": "save 的英文原词，表示保存（如保存文件、保存状态）；  "}
+{"word": "Inbound", "translation": "Inbound 的英文原词，表示传入的、流入的（如 Inbound Traffic 表示流入流量、Inbound Message 表示接收消息）；  "}
+{"word": "ws", "translation": "ws 的缩写，通常指 WebSocket（一种网络通信协议），也可能指 working set（工作集）或 Windows Scripting Host；  "}
+{"word": "Read", "translation": "Read 的英文原词，表示读取（如读取文件、读取数据）；  "}
+{"word": "Runtime", "translation": "Runtime 的英文原词，表示运行时（如运行时环境、运行时错误）；"}
+{"word": "Exec", "translation": "Exec：Execute 的缩写，表示执行；  "}
+{"word": "Typer", "translation": "Typer：Type 的变体或专有名词，可能指类型提示（type hinting）工具（如 Python 的 `typer` 库）；  "}
+{"word": "headers", "translation": "headers：header 的复数形式，表示 HTTP 请求/响应头、文件头等；  "}
+{"word": "status", "translation": "status：状态，如 HTTP 状态码（status code）；  "}
+{"word": "Datetime", "translation": "Datetime：DateTime 的变体，表示日期与时间（datetime）对象；  "}
+{"word": "New", "translation": "New：新的，表示新建、新创建的对象或状态；  "}
+{"word": "by", "translation": "by：介词，表示“通过……方式”或“按……分组”，如 `groupby` 中的含义；  "}
+{"word": "B", "translation": "B：Byte 的缩写，表示字节；也可能表示其他上下文中的标识符（如变量名 B）；  "}
+{"word": "ids", "translation": "ids：id 的复数形式，表示多个标识符（identifier），如用户 ID、记录 ID；  "}
+{"word": "Consolidator", "translation": "Consolidator：Consolidate 的动名词形式，表示整合器、汇总器（常用于数据处理中合并多个数据源）；  "}
+{"word": "Process", "translation": "Process：进程，或动词“处理”，在编程中常指进程（process）或处理逻辑；  "}
+{"word": "Cast", "translation": "Cast：转换、强制类型转换（如类型转换函数）；  "}
+{"word": "Skills", "translation": "Skills：skill 的复数形式，表示技能（如角色技能、用户技能、编程技能等）；  "}
+{"word": "lower", "translation": "lower：小写的（形容词），或动词“降低”，如字符串 `.lower()` 方法；  "}
+{"word": "meta", "translation": "meta：metadata 的缩写，表示元数据（描述数据的数据）；  "}
+{"word": "sleep", "translation": "sleep：休眠、暂停执行，如 `time.sleep()`；  "}
+{"word": "tc", "translation": "tc：可能为 time control（时间控制）、test case（测试用例）、traffic control（流量控制）等缩写，需结合上下文；  "}
+{"word": "Match", "translation": "Match：匹配，如正则表达式匹配（match）、模式匹配（pattern matching）；  "}
+{"word": "Timeout", "translation": "Timeout：超时，表示操作允许的最大等待时间；  "}
+{"word": "split", "translation": "split：分割，如字符串 `.split()` 方法，将字符串按分隔符拆分为列表；"}
+{"word": "val", "translation": "val 的缩写，通常为 value 的缩写，表示 值；  "}
+{"word": "Handler", "translation": "Handler 的完整形式为 Handler（本身即为英文单词，意为“处理程序”或“处理器”），常指事件处理程序、请求处理器等；  "}
+{"word": "extract", "translation": "extract 的原形，表示 提取、抽取；  "}
+{"word": "object", "translation": "object 的原形，表示 对象；  "}
+{"word": "Entry", "translation": "Entry 的原形，表示 条目、入口；  "}
+{"word": "Socket", "translation": "Socket 的原形，表示 套接字（网络通信端点）；  "}
+{"word": "consolidate", "translation": "consolidate 的原形，表示 合并、整合；  "}
+{"word": "load", "translation": "load 的原形，表示 加载；  "}
+{"word": "post", "translation": "post 的原形，表示 发送（常用于 HTTP POST 请求）；  "}
+{"word": "prefix", "translation": "prefix 的原形，表示 前缀；  "}
+{"word": "Http", "translation": "Http 的缩写，为 Hypertext Transfer Protocol（超文本传输协议）的缩写；  "}
+{"word": "exists", "translation": "exists 的原形，表示 存在；  "}
+{"word": "sent", "translation": "sent 的原形为 send 的过去式/过去分词，表示 已发送；  "}
+{"word": "Gateway", "translation": "Gateway 的原形，表示 网关；  "}
+{"word": "Manager", "translation": "Manager 的原形，表示 管理器；  "}
+{"word": "Download", "translation": "Download 的原形，表示 下载；  "}
+{"word": "Schema", "translation": "Schema 的原形，表示 模式、架构（常用于数据库或数据结构定义）；  "}
+{"word": "cfg", "translation": "cfg 的缩写，为 configuration 的缩写，表示 配置；  "}
+{"word": "seen", "translation": "seen 的原形为 see 的过去式/过去分词，表示 已查看、已读；  "}
+{"word": "smtp", "translation": "smtp 的缩写，为 Simple Mail Transfer Protocol（简单邮件传输协议）的缩写；"}
+{"word": "validate", "translation": "validate 的动词原形，表示验证、校验；  "}
+{"word": "Command", "translation": "Command 的首字母大写，通常指命令（command）；  "}
+{"word": "allowed", "translation": "allowed 的形容词形式，表示被允许的；  "}
+{"word": "enabled", "translation": "enabled 的形容词形式，表示已启用的；  "}
+{"word": "in", "translation": "介词 in，表示在……中、位于……内；  "}
+{"word": "limit", "translation": "limit 的名词或动词，表示限制、限额；  "}
+{"word": "retry", "translation": "retry 的动词或名词，表示重试；  "}
+{"word": "Delay", "translation": "Delay 的首字母大写，通常指延迟（delay）；  "}
+{"word": "httpx", "translation": "httpx 的专有名词，指 Python 中一个异步 HTTP 客户端库（httpx）；  "}
+{"word": "items", "translation": "items 的名词复数，表示项目、条目；  "}
+{"word": "line", "translation": "line 的名词，表示行、线路；  "}
+{"word": "Exit", "translation": "Exit 的首字母大写，通常指退出（exit）；  "}
+{"word": "Sub", "translation": "Sub 的缩写，常见为 subscription（订阅）或 subcommand（子命令）；  "}
+{"word": "Sync", "translation": "Sync 的首字母大写，通常指同步（synchronization）；  "}
+{"word": "at", "translation": "介词 at，表示在（某时间/地点）；  "}
+{"word": "frame", "translation": "frame 的名词，表示帧、框架、窗体；  "}
+{"word": "resp", "translation": "resp 的缩写，常见为 response（响应）；  "}
+{"word": "Email", "translation": "Email 的首字母大写，表示电子邮件（electronic mail）；  "}
+{"word": "Heartbeat", "translation": "Heartbeat 的名词，表示心跳（常用于系统或连接状态检测）；  "}
+{"word": "parent", "translation": "parent 的名词，表示父级、父对象；"}
+{"word": "property", "translation": "property 的缩写，表示 属性；  "}
+{"word": "Cancelled", "translation": "Cancelled 是 cancel 的过去分词，表示 已取消；  "}
+{"word": "attachment", "translation": "attachment 表示 附件；  "}
+{"word": "parsed", "translation": "parsed 是 parse 的过去分词，表示 已解析；  "}
+{"word": "tuple", "translation": "tuple 表示 元组（Python 中的一种不可变序列类型）；  "}
+{"word": "reasoning", "translation": "reasoning 表示 推理；  "}
+{"word": "Turn", "translation": "Turn 表示 回合、轮次；  "}
+{"word": "mcp", "translation": "MCP 可能为 Multiple Choice Problem（多选题）、Multi-Channel Protocol 等缩写，需结合上下文，常见于通信或教育领域；  "}
+{"word": "replace", "translation": "replace 表示 替换；  "}
+{"word": "All", "translation": "All 表示 所有；  "}
+{"word": "Image", "translation": "Image 表示 图像；  "}
+{"word": "Mention", "translation": "Mention 表示 提及；  "}
+{"word": "bridge", "translation": "bridge 表示 桥接、桥梁（常用于设计模式或网络连接场景）；  "}
+{"word": "startswith", "translation": "startswith 是 start with 的组合，表示 以……开头（Python 字符串方法）；  "}
+{"word": "Module", "translation": "Module 表示 模块；  "}
+{"word": "Runner", "translation": "Runner 表示 运行器、执行器；  "}
+{"word": "current", "translation": "current 表示 当前的；  "}
+{"word": "fallback", "translation": "fallback 表示 回退、备用方案；  "}
+{"word": "now", "translation": "now 表示 现在；  "}
+{"word": "panel", "translation": "panel 表示 面板、控制面板；"}
+{"word": "when", "translation": "when：当……时，表示时间或条件的连接词；  "}
+{"word": "Open", "translation": "Open：打开，动词原形，常用于表示打开文件、窗口、连接等操作；  "}
+{"word": "Table", "translation": "Table：表格，表示结构化数据的二维数组或数据库中的表；  "}
+{"word": "cursor", "translation": "cursor：光标，通常指文本编辑器或数据库中的游标；  "}
+{"word": "elements", "translation": "elements：element 的复数形式，表示元素（如 HTML 元素、数组元素等）；  "}
+{"word": "mkdir", "translation": "mkdir：make directory 的缩写，表示创建目录；  "}
+{"word": "window", "translation": "window：窗口，常指图形界面中的窗口或浏览器窗口；  "}
+{"word": "Markdown", "translation": "Markdown：一种轻量级标记语言，用于格式化文本；  "}
+{"word": "Patch", "translation": "Patch：补丁，可指代码补丁、热修复补丁，或动词“打补丁”；  "}
+{"word": "allow", "translation": "allow：允许，动词原形，表示授权某项操作；  "}
+{"word": "errors", "translation": "errors：error 的复数形式，表示错误、异常；  "}
+{"word": "register", "translation": "register：注册，动词原形，常用于注册回调、组件、变量等；  "}
+{"word": "resolve", "translation": "resolve：解析、解决，动词原形，常用于 Promise resolve、路径解析、问题解决等；  "}
+{"word": "clean", "translation": "clean：清理、清除，动词原形，如清理缓存、清理临时文件；  "}
+{"word": "for", "translation": "for：用于，表示目的、循环或条件，常见于 for 循环或 for 循环变量；  "}
+{"word": "policy", "translation": "policy：策略、策略规则，常用于权限策略、缓存策略、重试策略等；  "}
+{"word": "return", "translation": "return：返回，动词原形，常用于函数返回值或控制流跳转；  "}
+{"word": "element", "translation": "element：元素，如 DOM 元素、数组元素、集合元素等；  "}
+{"word": "next", "translation": "next：下一个，可作形容词、副词或动词，常用于迭代器、中间件流程控制（如 next()）；  "}
+{"word": "Callback", "translation": "Callback：回调函数，指作为参数传递并在特定事件发生时被调用的函数；"}
+{"word": "Proxy", "translation": "Proxy 的缩写或全称，表示代理（如代理服务器、代理对象）；  "}
+{"word": "dumps", "translation": "dumps 是 dump 的复数形式或动词第三人称单数，常指将数据序列化为字符串（如 JSON.dumps）；  "}
+{"word": "html", "translation": "html 是 HyperText Markup Language 的缩写，表示超文本标记语言；  "}
+{"word": "ref", "translation": "ref 是 reference 的缩写，表示引用、参考；  "}
+{"word": "staticmethod", "translation": "staticmethod 是 static method 的组合，表示静态方法（Python 中的装饰器）；  "}
+{"word": "from", "translation": "from 是英语介词，表示“来自”，在 Python 中用于导入模块或包（如 from module import ...）；  "}
+{"word": "jobs", "translation": "jobs 是 job 的复数形式，表示任务、作业；  "}
+{"word": "label", "translation": "label 是标签、标记；  "}
+{"word": "username", "translation": "username 是 user name 的组合，表示用户名；  "}
+{"word": "blocks", "translation": "blocks 是 block 的复数形式，表示块、区块、代码块或阻塞单元；  "}
+{"word": "cancel", "translation": "cancel 是动词原形，表示取消、中止；  "}
+{"word": "And", "translation": "And 是连词 and 的大写形式，表示“和”；  "}
+{"word": "Resource", "translation": "Resource 是 resource 的大写形式，表示资源；  "}
+{"word": "description", "translation": "description 是名词，表示描述、说明；  "}
+{"word": "kind", "translation": "kind 是名词，表示种类、类型；  "}
+{"word": "local", "translation": "local 是形容词或名词，表示本地的、本地变量、本地环境；  "}
+{"word": "mime", "translation": "mime 是 Multipurpose Internet Mail Extensions 的缩写，表示多用途互联网邮件扩展，常用于定义文件类型（MIME type）；  "}
+{"word": "missing", "translation": "missing 是形容词，表示缺失的、缺少的；  "}
+{"word": "subject", "translation": "subject 是名词，表示主题、主题行（如邮件主题）；  "}
+{"word": "Called", "translation": "Called 是动词 call 的过去分词或被动语态形式，表示被调用的；"}
+{"word": "Find", "translation": "Find：查找（动词 find 的原形，常用于表示搜索、查找操作）；  "}
+{"word": "Magic", "translation": "Magic：魔法（名词 magic 的原形；在编程中常指“魔法”逻辑，如魔法数字、魔法方法等，也可能指特定库/框架名，如 Python 的 `magic` 模块）；  "}
+{"word": "Q", "translation": "Q：Question（问题）、Queue（队列）、Query（查询）或 Quantity（数量）的缩写，常见于编程中表示问题、队列、查询或数量；  "}
+{"word": "W", "translation": "W：Window（窗口）或 Width（宽度）的缩写；在键盘按键或 GUI 中常指窗口（Window）；  "}
+{"word": "end", "translation": "end：结束（end 的原形，表示终止、结尾；常用于表示循环/迭代的结束位置、字符串结尾等）；  "}
+{"word": "frontmatter", "translation": "frontmatter：前端元数据（front + matter，常用于 Markdown 或静态站点生成器中，指文件开头用 YAML/JSON/TOML 标记的元数据部分）；  "}
+{"word": "total", "translation": "total：总数（total 的原形，表示全部数量、总计值）；  "}
+{"word": "Wrapper", "translation": "Wrapper：包装器/封装器（wrapper 的原形，指对原有对象/函数进行封装以扩展或修改行为的类或函数）；  "}
+{"word": "imap", "translation": "imap：Internet Message Access Protocol（互联网消息访问协议）的缩写，常用于邮件客户端；在 Python 中也指 `itertools.imap`（Python 2 中的迭代版 map）或 `multiprocessing.Pool.imap`；  "}
+{"word": "resolved", "translation": "resolved：已解析（resolve 的过去分词/形容词形式，表示已解决、已解析、已确定；如依赖解析完成、URL 解析成功等）；  "}
+{"word": "signal", "translation": "signal：信号（signal 的原形；在操作系统中指进程间通信的信号；在编程中也指事件通知、回调触发等）；  "}
+{"word": "timer", "translation": "timer：计时器（timer 的原形，表示用于计时、定时触发任务的对象或组件）；  "}
+{"word": "Mochat", "translation": "Mochat：专有名词，指 Mochat（可能为某公司/项目名，如“魔塔”或“Mochat”即时通讯/客服系统；需结合上下文确认，常见于中文语境下指代国产客服机器人平台）；  "}
+{"word": "Search", "translation": "Search：搜索（Search 的原形，动词或名词，表示查找、检索操作）；  "}
+{"word": "debug", "translation": "debug：调试（debug 的原形，指程序调试过程或调试模式）；  "}
+{"word": "entries", "translation": "entries：条目（entry 的复数形式；常用于表示字典/列表/数据库中的条目，如 `os.scandir()` 返回的 entries）；  "}
+{"word": "port", "translation": "port：端口（port 的原形；网络通信中的端口号，或硬件接口端口）；  "}
+{"word": "processed", "translation": "processed：已处理（process 的过去分词/形容词形式，表示已完成处理的数据或对象）；  "}
+{"word": "range", "translation": "range：范围（range 的原形；表示区间、序列，如 Python 中的 `range()` 函数生成的整数序列）；  "}
+{"word": "stdout", "translation": "stdout：标准输出（standard output 的缩写，指程序默认的输出流，通常为终端/控制台）；"}
+{"word": "title", "translation": "title 的缩写，表示标题；  "}
+{"word": "Chatbot", "translation": "Chatbot 是 Chat Robot 的缩写，表示聊天机器人；  "}
+{"word": "Stack", "translation": "Stack 表示栈（数据结构）；  "}
+{"word": "arguments", "translation": "arguments 的缩写，表示参数；  "}
+{"word": "choice", "translation": "choice 表示选择；  "}
+{"word": "env", "translation": "env 是 environment 的缩写，表示环境；  "}
+{"word": "progress", "translation": "progress 表示进度；  "}
+{"word": "Archive", "translation": "Archive 表示归档；  "}
+{"word": "reason", "translation": "reason 表示原因；  "}
+{"word": "root", "translation": "root 表示根（如根目录、根节点）；  "}
+{"word": "sid", "translation": "sid 是 session ID 或 service ID 的缩写，表示会话ID或服务ID；  "}
+{"word": "Mode", "translation": "Mode 表示模式；  "}
+{"word": "effort", "translation": "effort 表示努力、工作量；  "}
+{"word": "original", "translation": "original 表示原始的、原始版本；  "}
+{"word": "parse", "translation": "parse 表示解析；  "}
+{"word": "Not", "translation": "Not 表示“非”（逻辑取反）；  "}
+{"word": "input", "translation": "input 表示输入；  "}
+{"word": "md", "translation": "md 是 markdown 的缩写，表示 Markdown 格式；  "}
+{"word": "out", "translation": "out 是 output 的缩写，表示输出；  "}
+{"word": "part", "translation": "part 表示部分；"}
+{"word": "im", "translation": "im 的缩写，通常表示 image（图像）或 instant message（即时消息）；  "}
+{"word": "size", "translation": "size 的缩写，表示大小、尺寸；  "}
+{"word": "time", "translation": "time 的缩写，表示时间；  "}
+{"word": "usage", "translation": "usage 的缩写，表示使用量、使用情况；  "}
+{"word": "Azure", "translation": "Azure 的专有名词，指微软的云计算平台——Azure；  "}
+{"word": "ch", "translation": "ch 的缩写，常见含义包括 channel（通道）、character（字符）、change（变更）或 Chinese（中文）等，需结合上下文；  "}
+{"word": "estimate", "translation": "estimate 的缩写，表示估计、估算；  "}
+{"word": "finish", "translation": "finish 的缩写，表示完成、结束；  "}
+{"word": "instances", "translation": "instances 的缩写，是 instance（实例）的复数形式，常用于指程序运行的多个实例；  "}
+{"word": "safe", "translation": "safe 的缩写，表示安全的、安全状态；  "}
+{"word": "source", "translation": "source 的缩写，表示源代码、数据来源或源文件；  "}
+{"word": "Fetch", "translation": "Fetch 的首字母大写，通常为动词 fetch（获取、拉取）的动词原形，常用于网络请求或数据获取操作；  "}
+{"word": "Lock", "translation": "Lock 的首字母大写，表示锁（如线程锁、文件锁），常用于并发控制；  "}
+{"word": "Parameters", "translation": "Parameters 的首字母大写，是 parameter（参数）的复数形式，指函数或接口的输入参数；  "}
+{"word": "display", "translation": "display 的缩写，表示显示、显示器或显示操作；  "}
+{"word": "ensure", "translation": "ensure 的缩写，表示确保、保证；  "}
+{"word": "files", "translation": "files 的缩写，是 file（文件）的复数形式；  "}
+{"word": "final", "translation": "final 的缩写，表示最终的、最后的；  "}
+{"word": "normalized", "translation": "normalized 的缩写，是 normalize（标准化、归一化）的过去分词/形容词形式；  "}
+{"word": "output", "translation": "output 的缩写，表示输出（结果、数据、文件等）。"}
+{"word": "shutil", "translation": "shutil 的缩写，表示 shell utilities（Shell 工具库），Python 标准库中用于高级文件操作；  "}
+{"word": "tag", "translation": "tag 的缩写，表示 标签；  "}
+{"word": "Server", "translation": "Server 的缩写，表示 服务器；  "}
+{"word": "Slack", "translation": "Slack 的专有名词，指 Slack（一款团队协作与消息通信平台）；  "}
+{"word": "after", "translation": "after 表示 “在……之后”，常用于时间或逻辑顺序；  "}
+{"word": "author", "translation": "author 表示 作者；  "}
+{"word": "cmd", "translation": "cmd 的缩写，通常表示 command（命令）或 command-line（命令行）；  "}
+{"word": "done", "translation": "done 表示 “已完成”；  "}
+{"word": "fp", "translation": "fp 的缩写，通常表示 file pointer（文件指针）或 file path（文件路径），视上下文而定；  "}
+{"word": "host", "translation": "host 表示 主机；  "}
+{"word": "keys", "translation": "keys 的缩写，表示 键（key 的复数），常用于字典键、加密密钥等；  "}
+{"word": "refresh", "translation": "refresh 表示 刷新；  "}
+{"word": "session2", "translation": "session2 表示 第二个会话（session 的编号形式），常用于区分多个会话；  "}
+{"word": "tz", "translation": "tz 的缩写，通常表示 timezone（时区）；  "}
+{"word": "uses", "translation": "uses 表示 “使用”，为动词 use 的第三人称单数或复数形式；  "}
+{"word": "Cache", "translation": "Cache 的缩写，表示 缓存；  "}
+{"word": "Ding", "translation": "Ding 的专有名词，指钉钉（DingTalk 的简称，阿里巴巴旗下企业通讯与协作平台）；  "}
+{"word": "Talk", "translation": "Talk 的专有名词，常与 Ding 连用为 DingTalk（钉钉）；  "}
+{"word": "dataclass", "translation": "dataclass 的缩写，表示 data class（数据类），Python 3.7+ 中的装饰器，用于简化数据类定义；  "}
+{"word": "expected", "translation": "expected 表示 “预期的”，常用于表示期望值或预期结果；"}
+{"word": "ext", "translation": "ext 的缩写，通常表示 extension（扩展）、external（外部的）或 extra（额外的）；  "}
+{"word": "lark", "translation": "lark 的专有名词，指飞书（Lark，字节跳动推出的办公协作平台，现称“飞书”）；  "}
+{"word": "resources", "translation": "resources 的复数形式，表示资源（resource 的复数），如系统资源、网络资源等；  "}
+{"word": "stripped", "translation": "stripped 的动词过去分词形式，表示“被剥离的、被精简的”，常用于描述去除冗余信息后的数据或代码；  "}
+{"word": "super", "translation": "super 的缩写或词根，可表示“超级”“超类”（如面向对象编程中的 super class）；  "}
+{"word": "temperature", "translation": "temperature 的名词，表示温度；  "}
+{"word": "Ack", "translation": "Ack 的缩写，通常为 Acknowledgement（确认、应答）的简写，常用于通信或协议中；  "}
+{"word": "Cli", "translation": "Cli 的缩写，为 Command-Line Interface（命令行界面）的简写；  "}
+{"word": "block", "translation": "block 的名词或动词，表示“块”“区块”或“阻塞”；  "}
+{"word": "capture", "translation": "capture 的动词原形或名词，表示“捕获、捕捉”，如捕获数据包、捕获异常等；  "}
+{"word": "delays", "translation": "delays 的复数名词，为 delay（延迟）的复数形式；  "}
+{"word": "el", "translation": "el 的缩写，常见于 programming 或 system context 中，可能表示 element（元素）、elapsed（经过的，如 elapsed time）或 error level（错误级别）；  "}
+{"word": "origin", "translation": "origin 的名词，表示“原点、起源、原始位置”，如 Git 中的 origin 远程仓库；  "}
+{"word": "restrict", "translation": "restrict 的动词原形，表示“限制、约束”；  "}
+{"word": "Consolidation", "translation": "Consolidation 的名词，表示“合并、整合、 consolidation”，常用于数据、内存或业务逻辑的统一处理；  "}
+{"word": "Decode", "translation": "Decode 的动词原形，表示“解码”，与 encode（编码）相对；  "}
+{"word": "Generation", "translation": "Generation 的名词，表示“生成、产生”，如 AI 中的 text generation（文本生成）；  "}
+{"word": "clear", "translation": "clear 的动词或形容词，表示“清除、清空”或“清晰的”；  "}
+{"word": "date", "translation": "date 的名词，表示“日期”；  "}
+{"word": "float", "translation": "float 的名词或数据类型，表示“浮点数”（floating-point number）；"}
+{"word": "function", "translation": "function 的缩写，表示函数；  "}
+{"word": "header", "translation": "header 的缩写，表示头部（如 HTTP 头部、文件头等）；  "}
+{"word": "interval", "translation": "interval 的缩写，表示时间间隔或区间；  "}
+{"word": "legacy", "translation": "legacy 的缩写，表示遗留（如遗留系统、旧版代码）；  "}
+{"word": "loads", "translation": "load 的复数形式，表示加载（如加载模块、加载数据）；  "}
+{"word": "raise", "translation": "raise 的原形，表示抛出（异常）；  "}
+{"word": "relates", "translation": "relate 的第三人称单数或过去分词形式，表示相关、关联；  "}
+{"word": "trimmed", "translation": "trim 的过去分词/形容词形式，表示已修剪的、截断的（如去除首尾空白）；  "}
+{"word": "v1", "translation": "version 1 的缩写，表示版本 1；  "}
+{"word": "Callable", "translation": "Callable 的原形，表示可调用对象（如函数、类实例实现了 __call__ 方法）；  "}
+{"word": "Dispatch", "translation": "Dispatch 的原形，表示分派、调度（如函数分派、消息分发）；  "}
+{"word": "System", "translation": "System 的原形，表示系统（如操作系统、系统模块）；  "}
+{"word": "annotations", "translation": "annotation 的复数形式，表示注解（如 Python 类型注解、元数据注解）；  "}
+{"word": "before", "translation": "before 的原形，表示在……之前；  "}
+{"word": "buf", "translation": "buffer 的缩写，表示缓冲区；  "}
+{"word": "home", "translation": "home 的原形，表示主目录（如用户主目录、项目根目录）；  "}
+{"word": "importlib", "translation": "importlib 的原形，表示 Python 标准库模块，用于动态导入模块；  "}
+{"word": "invoke", "translation": "invoke 的原形，表示调用、触发（如调用函数、触发事件）；  "}
+{"word": "kw", "translation": "keyword 的缩写，表示关键字参数（如 kwargs 中的键值对）；  "}
+{"word": "logging", "translation": "logging 的原形，表示日志记录（如 Python logging 模块）；"}
+{"word": "login", "translation": "login 的缩写，表示登录；  "}
+{"word": "mimetypes", "translation": "mimetypes 的缩写，表示 MIME 类型（Multipurpose Internet Mail Extensions Types），用于标识文件类型；  "}
+{"word": "mxc", "translation": "mxc 的缩写，可能指 Matrix eXchange Protocol 中的 MXC（常见于某些通信或协议上下文中），也可能是特定项目中的自定义缩写；  "}
+{"word": "returns", "translation": "returns 的复数形式，表示返回值、回报或收益；  "}
+{"word": "Mgr", "translation": "Mgr 的缩写，表示 Manager（管理器）；  "}
+{"word": "Optional", "translation": "Optional 的缩写，表示可选的，常用于类型注解中（如 typing.Optional）；  "}
+{"word": "Subagent", "translation": "Subagent 的缩写，表示子代理（Subordinate Agent），常见于多智能体系统或自动化流程中；  "}
+{"word": "Transcription", "translation": "Transcription 的缩写，表示转录（如语音转文本）；  "}
+{"word": "active", "translation": "active 的缩写，表示活动的、活跃的；  "}
+{"word": "assert", "translation": "assert 的缩写，表示断言（用于调试或验证条件）；  "}
+{"word": "auto", "translation": "auto 的缩写，表示自动的（automatic 的简写）；  "}
+{"word": "callbacks", "translation": "callbacks 的复数形式，表示回调函数（Callback Functions）；  "}
+{"word": "candidates", "translation": "candidates 的复数形式，表示候选者、候选项；  "}
+{"word": "consume", "translation": "consume 的动词原形，表示消费、消耗（如消费消息队列中的数据）；  "}
+{"word": "direct", "translation": "direct 的形容词或动词原形，表示直接的、直接操作；  "}
+{"word": "environ", "translation": "environ 的缩写，表示 environment（环境变量）；  "}
+{"word": "exc", "translation": "exc 的缩写，表示 exception（异常）；  "}
+{"word": "extend", "translation": "extend 的动词原形，表示扩展、延伸；  "}
+{"word": "fields", "translation": "fields 的复数形式，表示字段（如数据库字段、数据结构字段）；  "}
+{"word": "format", "translation": "format 的名词或动词，表示格式、格式化；"}
+{"word": "formatted", "translation": "formatted 的过去分词形式，表示“已格式化的”；  "}
+{"word": "names", "translation": "names 的复数形式，表示“名称、命名”；  "}
+{"word": "or", "translation": "or 的英文单词，表示“或者”；  "}
+{"word": "order", "translation": "order 的英文单词，表示“顺序、排序、订单”；  "}
+{"word": "panels", "translation": "panels 的复数形式，表示“面板、控制面板”；  "}
+{"word": "responses", "translation": "responses 的复数形式，表示“响应、回复”；  "}
+{"word": "session1", "translation": "session1 的组合词，表示“会话1”（session 的编号形式）；  "}
+{"word": "subprocess", "translation": "subprocess 的英文单词，表示“子进程”；  "}
+{"word": "Empty", "translation": "Empty 的首字母大写形式，可能为类名或变量名，表示“空的”；  "}
+{"word": "Feishu", "translation": "Feishu 的专有名词，指飞书（中国一家企业协作平台公司）；  "}
+{"word": "Sample", "translation": "Sample 的首字母大写形式，可能为类名或变量名，表示“样本、示例”；  "}
+{"word": "buffers", "translation": "buffers 的复数形式，表示“缓冲区”；  "}
+{"word": "close", "translation": "close 的英文单词，表示“关闭”；  "}
+{"word": "commands", "translation": "commands 的复数形式，表示“命令”；  "}
+{"word": "connected", "translation": "connected 的过去分词形式，表示“已连接的”；  "}
+{"word": "keepalive", "translation": "keepalive 的英文单词，表示“保活、心跳机制”；  "}
+{"word": "map", "translation": "map 的英文单词，表示“映射、地图”，在编程中常指键值对映射结构；  "}
+{"word": "remaining", "translation": "remaining 的形容词形式，表示“剩余的”；  "}
+{"word": "rows", "translation": "rows 的复数形式，表示“行（数据表中的行）”；  "}
+{"word": "ts", "translation": "ts 的常见缩写，可能表示 timestamp（时间戳）、transaction scope（事务范围）或 thread stack（线程栈），具体含义需结合上下文；"}
+{"word": "Codex", "translation": "Codex 的专有名词，指 OpenAI 的 Codex 系列模型（如 GitHub Copilot 背后的模型），也可泛指代码生成/理解模型；  "}
+{"word": "Reaction", "translation": "Reaction 的复数形式，表示反应、响应（在编程中常指响应式编程中的“反应”机制）；  "}
+{"word": "Types", "translation": "Types 的复数形式，表示类型（type 的复数），常用于类型系统、类型注解等上下文；  "}
+{"word": "absolute", "translation": "absolute 的完整形式，表示“绝对的、绝对值的”，如绝对路径、绝对值等；  "}
+{"word": "action", "translation": "action 的完整形式，表示“动作、操作”，常用于事件处理、UI 交互或状态管理中；  "}
+{"word": "builtin", "translation": "builtin 的完整形式，是 built-in 的变体拼写，表示“内置的”，如 Python 中的内置函数（built-in functions）；  "}
+{"word": "compile", "translation": "compile 的完整形式，表示“编译”，如将源代码编译为字节码或机器码；  "}
+{"word": "connect", "translation": "connect 的完整形式，表示“连接”，常用于网络连接、数据库连接或事件监听器绑定等；  "}
+{"word": "def", "translation": "def 的完整形式，是 define 的缩写，Python 中用于定义函数的关键字；  "}
+{"word": "fn", "translation": "fn 的完整形式，是 function 的缩写，常见于 Rust、JavaScript 等语言中表示函数定义；  "}
+{"word": "groups", "translation": "groups 的复数形式，表示“组”，如正则表达式中的捕获组（capture groups）、用户组、分组逻辑等；  "}
+{"word": "guess", "translation": "guess 的完整形式，表示“猜测、推断”，如类型推断、值猜测等；  "}
+{"word": "has", "translation": "has 的完整形式，是 have/has 的第三人称单数形式，常用于方法名（如 has_key、has_permission），表示“是否包含/具有某属性”；  "}
+{"word": "package", "translation": "package 的完整形式，表示“包”，软件包、模块集合，如 Python 的 package、Java 的 package；  "}
+{"word": "publish", "translation": "publish 的完整形式，表示“发布”，如发布消息（发布-订阅模式）、发布软件包、发布 API 等；  "}
+{"word": "req", "translation": "req 的缩写，是 request 的缩写，表示请求（如 HTTP 请求、API 请求）；  "}
+{"word": "secret", "translation": "secret 的完整形式，表示“密钥、机密信息”，如 API 密钥、加密密钥等；  "}
+{"word": "seq", "translation": "seq 的缩写，是 sequence 的缩写，表示序列（如数字序列、时间序列、数据序列）；  "}
+{"word": "string", "translation": "string 的完整形式，表示“字符串”，文本数据类型；  "}
+{"word": "subscribe", "translation": "subscribe 的完整形式，表示“订阅”，常用于观察者模式、消息队列、事件监听等场景；"}
+{"word": "wait", "translation": "wait：等待；  "}
+{"word": "Chars", "translation": "Chars：Characters（字符）的缩写，表示字符集合或字符串；  "}
+{"word": "Import", "translation": "Import：导入（如 Python 中的 import 语句）；  "}
+{"word": "Parser", "translation": "Parser：解析器（parser 的首字母大写形式，常用于表示解析类或模块）；  "}
+{"word": "Providers", "translation": "Providers：Providers（提供者）的复数形式，通常指提供某种服务或数据的组件/模块/服务提供方；  "}
+{"word": "Registry", "translation": "Registry：注册表（如 Windows 注册表，或程序中的注册中心/注册表模式）；  "}
+{"word": "access", "translation": "access：访问（动词或名词，如访问权限、访问操作）；  "}
+{"word": "caption", "translation": "caption：标题、字幕（常用于图像描述、UI 文本或视频字幕）；  "}
+{"word": "chunk", "translation": "chunk：块、片段（如数据分块、文本分块）；  "}
+{"word": "converse", "translation": "converse：对话、交谈（在 AI/LLM 场景中常指“与模型进行对话”，如 converse API）；  "}
+{"word": "definitions", "translation": "definitions：definition（定义）的复数形式，如函数定义、类型定义、配置项定义等；  "}
+{"word": "discover", "translation": "discover：发现（动词，如自动发现资源、服务发现）；  "}
+{"word": "effective", "translation": "effective：有效的、生效的（如 effective configuration 表示实际生效的配置）；  "}
+{"word": "enumerate", "translation": "enumerate：枚举（动词或名词，如 Python 的 enumerate() 函数，或枚举类型）；  "}
+{"word": "estimated", "translation": "estimated：估计的、估算的（如 estimated time 表示预估时间）；  "}
+{"word": "fail", "translation": "fail：失败（动词或名词，如操作失败、失败状态）；  "}
+{"word": "filters", "translation": "filters：filter（过滤器）的复数形式，用于筛选、过滤数据或请求；  "}
+{"word": "litellm", "translation": "litellm：LiteLLM（专有名词，一个开源的 LLM 统一接口工具，兼容 OpenAI API）；  "}
+{"word": "mentions", "translation": "mentions：mention（提及）的复数形式，常指文本中提到的实体、用户或对象；  "}
+{"word": "obj", "translation": "obj：object（对象）的缩写，常用于表示通用对象或数据结构；"}
+{"word": "ok", "translation": "ok 的缩写，表示“确认”或“好的”（okay）；  "}
+{"word": "pop", "translation": "pop 的缩写，常指“弹出”操作（如栈或队列的 pop 操作）；  "}
+{"word": "receive", "translation": "receive 的原形，表示“接收”；  "}
+{"word": "requires", "translation": "requires 的原形为 require，表示“需要”；  "}
+{"word": "servers", "translation": "server 的复数形式，表示服务器；  "}
+{"word": "sorted", "translation": "sorted 的原形为 sort，表示“已排序的”；  "}
+{"word": "thinking", "translation": "thinking 的原形为 think，表示“思考”；  "}
+{"word": "updated", "translation": "updated 的原形为 update，表示“已更新的”；  "}
+{"word": "Emoji", "translation": "Emoji 的原形为 Emoticon+Image，指表情符号（如 😊、👍 等）；  "}
+{"word": "Encrypted", "translation": "Encrypted 的原形为 encrypt，表示“已加密的”；  "}
+{"word": "Queue", "translation": "Queue 的原形，表示“队列”（先进先出的数据结构）；  "}
+{"word": "always", "translation": "always 的原形，表示“总是”；  "}
+{"word": "cleaned", "translation": "cleaned 的原形为 clean，表示“已清理的”；  "}
+{"word": "clients", "translation": "client 的复数形式，表示客户端；  "}
+{"word": "detect", "translation": "detect 的原形，表示“检测”；  "}
+{"word": "extra", "translation": "extra 的原形，表示“额外的”；  "}
+{"word": "idx", "translation": "idx 的缩写，通常为 index 的简写，表示索引；  "}
+{"word": "interactive", "translation": "interactive 的原形，表示“交互式的”；  "}
+{"word": "no", "translation": "no 的原形，表示“不”或“否”；  "}
+{"word": "normalize", "translation": "normalize 的原形，表示“标准化”或“归一化”。"}
+{"word": "notify", "translation": "notify 的缩写，表示通知、提醒；  "}
+{"word": "offset", "translation": "offset 的缩写，表示偏移量；  "}
+{"word": "role", "translation": "role 的缩写，表示角色；  "}
+{"word": "setdefault", "translation": "setdefault 的缩写，表示设置默认值（常用于字典操作）；  "}
+{"word": "stderr", "translation": "stderr 的缩写，表示标准错误输出（standard error）；  "}
+{"word": "termios", "translation": "termios 的缩写，表示终端输入输出控制接口（terminal I/O control）；  "}
+{"word": "valid", "translation": "valid 的缩写，表示有效的、合法的；  "}
+{"word": "watch", "translation": "watch 的缩写，表示监视、观察；  "}
+{"word": "Class", "translation": "Class 的缩写，表示类（面向对象编程中的基本概念）；  "}
+{"word": "Dummy", "translation": "Dummy 的缩写，表示虚拟的、模拟的（常用于占位符或测试场景）；  "}
+{"word": "Log", "translation": "Log 的缩写，表示日志（logging 的名词形式）；  "}
+{"word": "Nio", "translation": "Nio 的缩写，表示 New I/O（Java 中的非阻塞 I/O 框架，也泛指现代异步 I/O 技术）；  "}
+{"word": "Option", "translation": "Option 的缩写，表示选项、参数配置项；  "}
+{"word": "abstractmethod", "translation": "abstractmethod 的缩写，表示抽象方法（Python 中 abc 模块定义的装饰器）；  "}
+{"word": "assistant", "translation": "assistant 的缩写，表示助手、辅助角色（如 AI 助手）；  "}
+{"word": "deployment", "translation": "deployment 的缩写，表示部署（如软件部署、模型部署）；  "}
+{"word": "detail", "translation": "detail 的缩写，表示细节、详细信息；  "}
+{"word": "hint", "translation": "hint 的缩写，表示提示、建议；  "}
+{"word": "iterations", "translation": "iterations 的缩写，表示迭代次数（iteration 的复数形式）；  "}
+{"word": "logo", "translation": "logo 的缩写，表示标志、徽标（常指程序或项目的标识图形）。"}
+{"word": "mentioned", "translation": "mentioned 的过去分词形式，表示“被提及的”；  "}
+{"word": "mt", "translation": "mt 的缩写，可能指 message type（消息类型）、mount table（挂载表）或 Microsoft Teams；  "}
+{"word": "openai", "translation": "openai 的专有名词，指 OpenAI（美国人工智能公司）；  "}
+{"word": "platform", "translation": "platform 表示平台、平台系统；  "}
+{"word": "ready", "translation": "ready 表示“准备就绪的”；  "}
+{"word": "specific", "translation": "specific 表示“特定的、具体的”；  "}
+{"word": "t2", "translation": "t2 的缩写，可能指 time-to（到达时间）、type 2（第二类）、或特定版本标识（如 T2 模型）；  "}
+{"word": "temp", "translation": "temp 的缩写，表示 temporary（临时的），常用于临时文件或临时变量；  "}
+{"word": "uuid", "translation": "uuid 的缩写，表示 universally unique identifier（通用唯一识别码）；  "}
+{"word": "version", "translation": "version 表示版本；  "}
+{"word": "Boundary", "translation": "Boundary 表示“边界”，常用于编程中表示范围限制；  "}
+{"word": "Invite", "translation": "Invite 表示“邀请”，动词或名词；  "}
+{"word": "Nanobot", "translation": "Nanobot 表示“纳米机器人”，即纳米级机器人；  "}
+{"word": "Scripted", "translation": "Scripted 表示“脚本化的”，即通过脚本实现的；  "}
+{"word": "aenter", "translation": "aenter 的缩写，通常为 async enter 的缩写，表示异步进入（常用于异步上下文管理器）；  "}
+{"word": "best", "translation": "best 表示“最佳的”；  "}
+{"word": "child", "translation": "child 表示“子项、子对象、子进程”；  "}
+{"word": "chunks", "translation": "chunks 表示“块、片段”，是 chunk 的复数形式；  "}
+{"word": "converted", "translation": "converted 表示“已转换的”，是 convert 的过去分词；  "}
+{"word": "enter", "translation": "enter 表示“进入”，常用于输入、进入操作或异步上下文管理器中的 enter 方法。"}
+{"word": "entity", "translation": "entity 的缩写，表示 实体；  "}
+{"word": "example", "translation": "example 的缩写，表示 示例、例子；  "}
+{"word": "filtered", "translation": "filtered 是 filter 的过去分词/形容词形式，表示 已过滤的；  "}
+{"word": "first", "translation": "first 表示 第一个、首次；  "}
+{"word": "hasattr", "translation": "hasattr 是 “has attribute” 的缩写，表示 是否具有某属性（常用于 Python 中检查对象是否包含指定属性）；  "}
+{"word": "keep", "translation": "keep 表示 保持、保留；  "}
+{"word": "keeps", "translation": "keeps 是 keep 的第三人称单数形式，表示 保持、保留；  "}
+{"word": "override", "translation": "override 表示 重写、覆盖（常用于面向对象编程中子类重写父类方法）；  "}
+{"word": "seconds", "translation": "seconds 是 second 的复数形式，表示 秒；  "}
+{"word": "subdir", "translation": "subdir 是 subdirectory 的缩写，表示 子目录；  "}
+{"word": "suffix", "translation": "suffix 表示 后缀、后缀名（如文件扩展名 .txt）；  "}
+{"word": "summary", "translation": "summary 表示 摘要、概要、汇总；  "}
+{"word": "t1", "translation": "t1 通常为变量名，可能是 time1 或 test1 的缩写，表示 第一个时间点或第一个测试项；  "}
+{"word": "timestamp", "translation": "timestamp 表示 时间戳；  "}
+{"word": "values", "translation": "values 是 value 的复数形式，表示 值；  "}
+{"word": "voice", "translation": "voice 表示 声音、语音；  "}
+{"word": "Encryption", "translation": "Encryption 是 encrypt 的名词形式，表示 加密；  "}
+{"word": "Lite", "translation": "Lite 是 light 的变体，表示 轻量版、精简版；  "}
+{"word": "Literal", "translation": "Literal 表示 字面量、字面值（编程中指直接写出的固定值，如 123、\"hello\"）；  "}
+{"word": "Record", "translation": "Record 表示 记录（如数据库中的一行数据，或日志记录）；"}
+{"word": "Settings", "translation": "Settings：Settings 的完整形式，表示“设置”或“配置项”；  "}
+{"word": "addr", "translation": "addr：address 的缩写，表示“地址”（如网络地址、内存地址等）；  "}
+{"word": "cells", "translation": "cells：cell 的复数形式，通常指“单元格”（如电子表格、Jupyter Notebook 中的代码单元格）；  "}
+{"word": "cold", "translation": "cold：形容词，表示“冷的”，在技术语境中常指“冷启动”（cold start）等场景；  "}
+{"word": "conversation", "translation": "conversation：表示“对话”，常用于聊天机器人、多轮交互等上下文中；  "}
+{"word": "created", "translation": "created：动词 create 的过去式/过去分词，表示“已创建”；  "}
+{"word": "ctx", "translation": "ctx：context 的缩写，表示“上下文”（如请求上下文、执行上下文）；  "}
+{"word": "dest", "translation": "dest：destination 的缩写，表示“目标”或“目的地”；  "}
+{"word": "dp", "translation": "dp：可能是 data point（数据点）、display pointer（显示指针）、deep learning pipeline（深度学习流程）等的缩写，需结合具体场景；  "}
+{"word": "els", "translation": "els：可能是 else 的缩写（较少见），或 elements、elapsed（已过去）等的缩写；常见于某些框架中表示“其他元素”或“其余情况”；  "}
+{"word": "every", "translation": "every：形容词/副词，表示“每个”、“每隔”（如 every 100ms）；  "}
+{"word": "examples", "translation": "examples：example 的复数形式，表示“示例”；  "}
+{"word": "executor", "translation": "executor：表示“执行器”，常用于并发/异步任务调度中（如线程池执行器 ThreadPoolExecutor）；  "}
+{"word": "expr", "translation": "expr：expression 的缩写，表示“表达式”；  "}
+{"word": "factory", "translation": "factory：表示“工厂”，常用于工厂模式（Factory Pattern），指用于创建对象的类或函数；  "}
+{"word": "fixture", "translation": "fixture：表示“测试夹具”或“固定装置”，在测试框架（如 pytest）中指预设的测试环境或资源；  "}
+{"word": "long", "translation": "long：形容词/数据类型，表示“长的”或“长整型”（在某些语言中为 long int）；  "}
+{"word": "marker", "translation": "marker：表示“标记”或“标记器”，常用于测试中标记特定用例（如 @pytest.mark.slow），或在可视化中表示数据点标记；  "}
+{"word": "modname", "translation": "modname：module name 的缩写，表示“模块名”；  "}
+{"word": "oauth", "translation": "oauth：OAuth（Open Authorization）的缩写，表示开放授权协议，常用于第三方登录/授权；"}
+{"word": "op", "translation": "op 的缩写，通常表示 operation（操作）或 operator（运算符）；  "}
+{"word": "patterns", "translation": "patterns 的复数形式，表示 模式（pattern 的复数）；  "}
+{"word": "pkg", "translation": "pkg 的缩写，表示 package（包），常用于 Python 或其他编程语言中的模块包；  "}
+{"word": "should", "translation": "should 表示 应该，情态动词；  "}
+{"word": "src", "translation": "src 的缩写，表示 source（源代码），如 source code 或 source directory；  "}
+{"word": "supports", "translation": "supports 表示 支持，support 的第三人称单数或复数形式；  "}
+{"word": "workers", "translation": "workers 的复数形式，表示 工作者、工作线程（worker 的复数），常用于并发/多线程场景；  "}
+{"word": "Auth", "translation": "Auth 的缩写，表示 Authentication（认证），常用于安全相关功能；  "}
+{"word": "Buffered", "translation": "Buffered 表示 已缓冲的，buffer 的过去分词或形容词形式；  "}
+{"word": "Level", "translation": "Level 表示 级别、层级，如日志级别（log level）；  "}
+{"word": "Ordered", "translation": "Ordered 表示 已排序的、有序的，order 的过去分词或形容词形式；  "}
+{"word": "Restart", "translation": "Restart 表示 重启，restart 的动词原形或名词；  "}
+{"word": "Trigger", "translation": "Trigger 表示 触发器、触发，动词或名词；  "}
+{"word": "background", "translation": "background 表示 背景、后台，常用于指后台任务或 CSS 中的背景设置；  "}
+{"word": "brave", "translation": "brave 表示 勇敢的，也可指 Brave 浏览器；  "}
+{"word": "card", "translation": "card 表示 卡片、卡，如数据卡片、UI 组件卡片；  "}
+{"word": "cursors", "translation": "cursors 的复数形式，表示 光标（cursor 的复数），常用于数据库或 GUI 中；  "}
+{"word": "cwd", "translation": "cwd 的缩写，表示 current working directory（当前工作目录）；  "}
+{"word": "doc", "translation": "doc 表示 文档（document）或文档字符串（docstring）；  "}
+{"word": "endswith", "translation": "endswith 表示 以……结尾，是字符串方法，如 Python 中 str.endswith()；"}
+{"word": "events", "translation": "events：event 的复数形式，表示事件；  "}
+{"word": "expanduser", "translation": "expanduser：expand + user 的组合，表示展开用户路径（如将 ~ 扩展为用户主目录）；  "}
+{"word": "flush", "translation": "flush：刷新，表示清空缓冲区或强制输出数据；  "}
+{"word": "frozenset", "translation": "frozenset：frozen + set 的组合，表示不可变集合（Python 中的一种数据类型）；  "}
+{"word": "guard", "translation": "guard：守卫、防护，常用于表示条件检查或访问控制逻辑；  "}
+{"word": "handlers", "translation": "handlers：handler 的复数形式，表示处理程序或回调函数；  "}
+{"word": "images", "translation": "images：image 的复数形式，表示图像（如文件、数据中的图片）；  "}
+{"word": "imgs", "translation": "imgs：images 的缩写，表示图像；  "}
+{"word": "include", "translation": "include：包含，表示将某内容或文件纳入当前范围；  "}
+{"word": "instance", "translation": "instance：实例，表示类的实例化对象；  "}
+{"word": "li", "translation": "li：可能为 list 的缩写（如在 HTML 中 `<li>` 表示列表项），或 Linux/Unix 中的逻辑标识符；  "}
+{"word": "once", "translation": "once：一次、仅一次，表示只执行一次的操作；  "}
+{"word": "overrides", "translation": "overrides：override 的复数形式，表示重写、覆盖（如方法重写）；  "}
+{"word": "pid", "translation": "pid：process identifier 的缩写，表示进程标识符；  "}
+{"word": "prepare", "translation": "prepare：准备，表示初始化或预处理操作；  "}
+{"word": "ratio", "translation": "ratio：比率，表示两个数值之间的比例关系；  "}
+{"word": "repair", "translation": "repair：修复，表示修复损坏的数据或系统；  "}
+{"word": "results", "translation": "results：result 的复数形式，表示结果；  "}
+{"word": "sanitize", "translation": "sanitize：净化、清理，表示对输入数据进行安全过滤或标准化处理；  "}
+{"word": "states", "translation": "states：state 的复数形式，表示状态（如程序状态、机器状态等）；"}
+{"word": "threads", "translation": "threads 的复数形式，表示线程（thread 的复数）；  "}
+{"word": "updates", "translation": "updates 的复数形式，表示更新（update 的复数）；  "}
+{"word": "use", "translation": "use 的动词原形，表示使用；  "}
+{"word": "Discord", "translation": "Discord 的专有名词，指 Discord（一款实时通信与语音聊天平台）；  "}
+{"word": "Edit", "translation": "Edit 的动词原形或名词，表示编辑；  "}
+{"word": "Groq", "translation": "Groq 的专有名词，指 Groq（一家美国人工智能芯片与软件公司）；  "}
+{"word": "Wecom", "translation": "Wecom 的专有名词，指企业微信（WeCom，腾讯推出的面向企业的即时通讯与办公平台）；  "}
+{"word": "accepts", "translation": "accepts 的动词第三人称单数形式（accept 的变位），表示接受、接收；  "}
+{"word": "aes", "translation": "aes 的缩写，Advanced Encryption Standard（高级加密标准）；  "}
+{"word": "await", "translation": "await 的动词原形，表示等待（常用于异步编程中）；  "}
+{"word": "candidate", "translation": "candidate 的名词，表示候选者、候选项；  "}
+{"word": "classmethod", "translation": "classmethod 的缩写，class method 的组合，表示类方法（Python 中的装饰器）；  "}
+{"word": "convert", "translation": "convert 的动词原形，表示转换、转化；  "}
+{"word": "delete", "translation": "delete 的动词原形，表示删除；  "}
+{"word": "deprecated", "translation": "deprecated 的形容词，表示已弃用、已废弃（常用于描述不再推荐使用的 API 或功能）；  "}
+{"word": "dm", "translation": "dm 的缩写，可能指 direct message（私信/私聊），或 data memory（数据存储器），在 Discord 等上下文中多指私信；  "}
+{"word": "does", "translation": "does 的动词第三人称单数形式（do 的变位），表示做、执行；  "}
+{"word": "dt", "translation": "dt 的缩写，常见含义包括 datetime（日期时间）、delta time（时间差）、data type（数据类型），具体含义需结合上下文；  "}
+{"word": "fetched", "translation": "fetched 的动词过去分词（fetch 的变位），表示已获取、已拉取；  "}
+{"word": "inline", "translation": "inline 的形容词或副词，表示内联的、行内的（如 inline function、inline code）；"}
+{"word": "iter", "translation": "iter 的缩写，通常为 iterator 的缩写，表示迭代器；  "}
+{"word": "maybe", "translation": "maybe 的缩写，表示“可能”；  "}
+{"word": "me", "translation": "me 的缩写，通常指“我”（第一人称代词），在编程中可能表示当前对象或用户；  "}
+{"word": "only", "translation": "only 的缩写，表示“仅、只”；  "}
+{"word": "param", "translation": "param 的缩写，通常为 parameter 的缩写，表示参数；  "}
+{"word": "photo", "translation": "photo 的缩写，表示照片（photograph 的简写）；  "}
+{"word": "polling", "translation": "polling 的缩写，表示轮询（一种主动查询机制）；  "}
+{"word": "raises", "translation": "raises 的缩写，为动词 raise 的第三人称单数或过去分词形式，表示“抛出（异常）”；  "}
+{"word": "rebuilt", "translation": "rebuilt 的缩写，为 rebuild 的过去分词形式，表示“重建”；  "}
+{"word": "relative", "translation": "relative 的缩写，表示“相对的、相关的”，在路径中常指“相对路径”；  "}
+{"word": "remove", "translation": "remove 的缩写，表示“移除、删除”；  "}
+{"word": "require", "translation": "require 的缩写，表示“需要、要求”，常用于模块导入（如 Node.js 中的 require）；  "}
+{"word": "scripts", "translation": "scripts 的缩写，为 script 的复数形式，表示脚本；  "}
+{"word": "splitlines", "translation": "splitlines 的缩写，为 split lines 的组合，表示按行分割字符串的方法；  "}
+{"word": "started", "translation": "started 的缩写，为 start 的过去分词形式，表示“已启动”；  "}
+{"word": "success", "translation": "success 的缩写，表示“成功”；  "}
+{"word": "tables", "translation": "tables 的缩写，为 table 的复数形式，表示表格；  "}
+{"word": "templates", "translation": "templates 的缩写，为 template 的复数形式，表示模板；  "}
+{"word": "term", "translation": "term 的缩写，通常为 terminal 的缩写，表示终端；也可指“术语”或“项”；  "}
+{"word": "texts", "translation": "texts 的缩写，为 text 的复数形式，表示文本（字符串）；"}
+{"word": "transport", "translation": "transport：传输，表示数据传输或通信过程；  "}
+{"word": "uid", "translation": "uid：user identifier 的缩写，表示用户唯一标识符；  "}
+{"word": "uids", "translation": "uids：uid 的复数形式，表示多个用户唯一标识符；  "}
+{"word": "was", "translation": "was：be 动词的过去式，表示“是”或“在”；  "}
+{"word": "websockets", "translation": "websockets：WebSocket 协议的复数形式，表示基于 WebSocket 的实时通信连接；  "}
+{"word": "zipfile", "translation": "zipfile：zip 文件的英文表达，表示压缩文件（通常指 .zip 格式）；  "}
+{"word": "Awaitable", "translation": "Awaitable：可等待的，Python 中指支持 await 语法的对象（如 coroutine、task 等）；  "}
+{"word": "Found", "translation": "Found：find 的过去式/过去分词，表示“找到”，在代码中常用于表示已找到某对象或结果；  "}
+{"word": "Index", "translation": "Index：索引，表示数据结构（如列表、字典）中的位置编号，或数据库索引；  "}
+{"word": "Repository", "translation": "Repository：仓库，常指代码仓库（如 Git 仓库）或数据存储库；  "}
+{"word": "Updater", "translation": "Updater：更新器，表示负责更新功能或数据的模块/类；  "}
+{"word": "Whats", "translation": "Whats：what 的缩写或口语形式，常用于“What's”（What is）的缩写；  "}
+{"word": "added", "translation": "added：add 的过去式/过去分词，表示“已添加”；  "}
+{"word": "argv", "translation": "argv：argument vector 的缩写，表示命令行参数向量（Python 中为 sys.argv）；  "}
+{"word": "arm", "translation": "arm：高级 RISC Machine 的缩写，指 ARM 架构处理器；也可能指“手臂”（上下文相关）；  "}
+{"word": "c2c", "translation": "c2c：customer-to-customer 的缩写，表示客户对客户（如 C2C 电商模式）；也可能指 client-to-client 或 code-to-code，需结合具体领域；  "}
+{"word": "consent", "translation": "consent：同意、许可，常用于用户授权或隐私政策场景；  "}
+{"word": "decide", "translation": "decide：决定，动词，表示做出选择或判断；  "}
+{"word": "e2ee", "translation": "e2ee：end-to-end encryption 的缩写，表示端到端加密；  "}
+{"word": "explicit", "translation": "explicit：显式的、明确的，与“implicit”（隐式的）相对，常用于强调显式声明或行为；"}
+{"word": "extension", "translation": "extension 的缩写，表示扩展名、扩展模块；  "}
+{"word": "forced", "translation": "forced 的过去式/过去分词，表示强制的、被强制的；  "}
+{"word": "forever", "translation": "forever 的副词，表示永远、持续不断地；  "}
+{"word": "gather", "translation": "gather 的动词原形，表示收集、聚集；  "}
+{"word": "hb", "translation": "hb 的缩写，可能指 heartbeat（心跳）、handbook（手册）或特定上下文中的自定义缩写（如“horizontal bar”水平线）；  "}
+{"word": "install", "translation": "install 的动词原形，表示安装；  "}
+{"word": "invalid", "translation": "invalid 的形容词，表示无效的、不合法的；  "}
+{"word": "isoformat", "translation": "isoformat 的名词，表示 ISO 格式（通常指 ISO 8601 日期时间格式）；  "}
+{"word": "iteration", "translation": "iteration 的名词，表示迭代、循环过程；  "}
+{"word": "logs", "translation": "logs 的名词复数，表示日志（log 的复数）；  "}
+{"word": "method", "translation": "method 的名词，表示方法（面向对象编程中的函数）；  "}
+{"word": "min", "translation": "min 的缩写，通常为 minimum 的缩写，表示最小值、分钟（minute）或 method（在某些上下文中）；  "}
+{"word": "mod", "translation": "mod 的缩写，通常为 modulo（取模运算）或 module（模块）的缩写；  "}
+{"word": "msgs", "translation": "msgs 的缩写，为 messages 的复数形式，表示消息；  "}
+{"word": "mtime", "translation": "mtime 的缩写，为 modification time 的缩写，表示文件修改时间；  "}
+{"word": "password", "translation": "password 的名词，表示密码；  "}
+{"word": "plain", "translation": "plain 的形容词，表示明文的、无格式的；  "}
+{"word": "pos", "translation": "pos 的缩写，通常为 position 的缩写，表示位置、索引；  "}
+{"word": "protected", "translation": "protected 的形容词，表示受保护的（如面向对象中的 protected 成员）；  "}
+{"word": "quick", "translation": "quick 的形容词，表示快速的、敏捷的；"}
+{"word": "removed", "translation": "removed 的过去分词形式，表示“已移除”；  "}
+{"word": "render", "translation": "render 的动词原形，表示“渲染”（如网页、图像等）；  "}
+{"word": "same", "translation": "same 的形容词，表示“相同的”；  "}
+{"word": "sanitized", "translation": "sanitized 的过去分词形式，表示“已清理/净化”（通常指去除危险字符或敏感信息）；  "}
+{"word": "section", "translation": "section 的名词，表示“章节、部分”；  "}
+{"word": "select", "translation": "select 的动词原形，表示“选择”；  "}
+{"word": "skips", "translation": "skips 的第三人称单数或复数形式，表示“跳过”（skip 的变体）；  "}
+{"word": "ssl", "translation": "ssl 的缩写，表示 Secure Sockets Layer（安全套接层）；  "}
+{"word": "tags", "translation": "tags 的名词复数，表示“标签”；  "}
+{"word": "topic", "translation": "topic 的名词，表示“主题”；  "}
+{"word": "urlparse", "translation": "urlparse 的函数名，表示“URL 解析”（通常指 Python 的 urllib.parse 模块中的函数）；  "}
+{"word": "without", "translation": "without 的介词，表示“没有、不带”；  "}
+{"word": "yaml", "translation": "yaml 的缩写，表示 YAML Ain’t Markup Language（一种人类可读的数据序列化格式）；  "}
+{"word": "Argument", "translation": "Argument 的名词，表示“参数、自变量”；  "}
+{"word": "Coroutine", "translation": "Coroutine 的名词，表示“协程”（一种轻量级并发编程结构）；  "}
+{"word": "Document", "translation": "Document 的名词，表示“文档”；  "}
+{"word": "Loader", "translation": "Loader 的名词，表示“加载器”；  "}
+{"word": "Slice", "translation": "Slice 的名词，表示“切片”（如 Python 中的列表切片操作）；  "}
+{"word": "Stream", "translation": "Stream 的名词，表示“流”（如数据流、输入输出流）；  "}
+{"word": "Zone", "translation": "Zone 的名词，表示“区域、区域设置（如时区 timezone）”；"}
+{"word": "attachments", "translation": "attachments：attachment 的复数形式，表示附件；  "}
+{"word": "attempt", "translation": "attempt：尝试、试图；  "}
+{"word": "attr", "translation": "attr：attribute 的缩写，表示属性；  "}
+{"word": "audio", "translation": "audio：音频；  "}
+{"word": "batch", "translation": "batch：批处理、批次；  "}
+{"word": "bootstrap", "translation": "bootstrap：引导、启动；也可指 Bootstrap 框架；  "}
+{"word": "botpy", "translation": "botpy：bot + py（Python），通常指基于 Python 的机器人框架或库（如 OneBot 的 Python 实现）；  "}
+{"word": "buffer", "translation": "buffer：缓冲区、缓冲；  "}
+{"word": "captured", "translation": "captured：capture 的过去分词，表示被捕获的（如捕获的图像、数据等）；  "}
+{"word": "charset", "translation": "charset：character set 的缩写，表示字符编码集；  "}
+{"word": "cleanup", "translation": "cleanup：清理、清理操作；  "}
+{"word": "configured", "translation": "configured：configure 的过去分词，表示已配置的；  "}
+{"word": "coro", "translation": "coro：coroutine 的缩写，表示协程；  "}
+{"word": "declared", "translation": "declared：declare 的过去分词，表示已声明的；  "}
+{"word": "deque", "translation": "deque：double-ended queue 的缩写，表示双端队列；  "}
+{"word": "device", "translation": "device：设备；  "}
+{"word": "enc", "translation": "enc：encode 的缩写，表示编码；  "}
+{"word": "entities", "translation": "entities：entity 的复数形式，通常指自然语言处理中的实体（如人名、地名等）；  "}
+{"word": "errcode", "translation": "errcode：error code 的缩写，表示错误码；  "}
+{"word": "evt", "translation": "evt：event 的缩写，表示事件；"}
+{"word": "external", "translation": "external 的缩写，表示外部的；  "}
+{"word": "failures", "translation": "failures 的复数形式，表示失败（failure 的复数）；  "}
+{"word": "filter", "translation": "filter 的复数或动词原形，表示过滤器或进行过滤操作；  "}
+{"word": "forward", "translation": "forward 的动词原形或副词，表示转发、向前；  "}
+{"word": "granted", "translation": "granted 的过去分词或形容词，表示已授予的；  "}
+{"word": "handles", "translation": "handles 的复数形式，表示句柄（handle 的复数），常用于系统资源标识；  "}
+{"word": "hashlib", "translation": "hashlib 的专有名词，Python 标准库模块，用于哈希计算（hash library 的缩写）；  "}
+{"word": "head", "translation": "head 的名词或动词原形，表示头部、首部，或用于命令行工具 head；  "}
+{"word": "initial", "translation": "initial 的形容词或名词，表示初始的、初始化的；  "}
+{"word": "keyword", "translation": "keyword 的名词，表示关键字、关键词；  "}
+{"word": "loaded", "translation": "loaded 的过去分词或形容词，表示已加载的；  "}
+{"word": "locks", "translation": "locks 的复数形式，表示锁（lock 的复数），常用于并发控制；  "}
+{"word": "mailbox", "translation": "mailbox 的名词，表示邮箱（如邮件队列或程序中的消息邮箱）；  "}
+{"word": "ollama", "translation": "ollama 的专有名词，指 Ollama（一个开源的大语言模型运行框架）；  "}
+{"word": "onboard", "translation": "onboard 的形容词或动词原形，表示 onboard 的，或“ onboard”（ onboard 的过去式/过去分词为 onboarded，但 onboard 本身也可作动词，意为“使加入、 onboard 成员”）；  "}
+{"word": "poll", "translation": "poll 的名词或动词，表示轮询（如轮询机制）；  "}
+{"word": "props", "translation": "props 的复数形式，通常为 properties 的缩写，表示属性；在 React 等前端框架中特指组件属性；  "}
+{"word": "pw", "translation": "pw 的常见缩写，可能指 password（密码）或 working directory（在某些上下文中为 present working directory 的简写，但更常见为 password）；  "}
+{"word": "row", "translation": "row 的名词，表示行（如表格中的一行）；  "}
+{"word": "script", "translation": "script 的名词或动词，表示脚本（如 shell 脚本、Python 脚本）；"}
+{"word": "skip", "translation": "skip 的缩写，表示跳过、跳过某项操作；  "}
+{"word": "slow", "translation": "slow 表示慢的、低速的；  "}
+{"word": "sse", "translation": "sse 的缩写，可能指 Streaming SIMD Extensions（流式SIMD扩展，Intel CPU指令集）；  "}
+{"word": "stdin", "translation": "stdin 的缩写，standard input 的缩写，表示标准输入流；  "}
+{"word": "targets", "translation": "targets 的复数形式，表示目标（target 的复数），常用于机器学习中指代预测目标或网络目标；  "}
+{"word": "tbl", "translation": "tbl 的缩写，table 的缩写，表示表格；  "}
+{"word": "tpl", "translation": "tpl 的缩写，template 的缩写，表示模板；  "}
+{"word": "transcribe", "translation": "transcribe 表示转录（如语音转文字）；  "}
+{"word": "transient", "translation": "transient 表示短暂的、临时的；  "}
+{"word": "util", "translation": "util 的缩写，utility 的缩写，表示工具、实用程序；  "}
+{"word": "wake", "translation": "wake 表示唤醒（如唤醒休眠的进程或设备）；  "}
+{"word": "working", "translation": "working 表示正在工作的、工作中的；  "}
+{"word": "Cases", "translation": "Cases 的复数形式，case 的复数，表示用例、场景、实例；  "}
+{"word": "Fs", "translation": "Fs 的复数形式，F 的复数，可能指 File（文件）、Function（函数）或 Field（字段）等的缩写，具体需结合上下文；  "}
+{"word": "Intents", "translation": "Intents 的复数形式，intent 的复数，常用于 Android 开发中表示意图；  "}
+{"word": "Permission", "translation": "Permission 表示权限；  "}
+{"word": "Spawn", "translation": "Spawn 表示派生（如派生子进程）；  "}
+{"word": "Suppress", "translation": "Suppress 表示抑制、屏蔽（如抑制异常或日志输出）；  "}
+{"word": "aclose", "translation": "aclose 的缩写，asynchronous close 的缩写，表示异步关闭；  "}
+{"word": "announce", "translation": "announce 表示广播、宣告、发布（如网络中宣告服务可用性）；"}
+{"word": "archived", "translation": "archived：archive 的过去分词形式，表示“已归档的”；  "}
+{"word": "back", "translation": "back：表示“后退、返回、背面”；  "}
+{"word": "basename", "translation": "basename：base + name，表示“基本名称”或“文件名（不含路径部分）”；  "}
+{"word": "box", "translation": "box：表示“盒子、容器、框”，在 GUI 中常指“文本框”或“消息框”；  "}
+{"word": "bytearray", "translation": "bytearray：byte + array，表示“字节数组”，一种可变的二进制数据类型；  "}
+{"word": "cap", "translation": "cap：可能是 caption（标题）、capacity（容量）、capture（捕获）或 capital（大写）的缩写，需结合上下文；  "}
+{"word": "choices", "translation": "choices：choice 的复数形式，表示“选项、选择项”；  "}
+{"word": "claw", "translation": "claw：字面意为“爪子”，在编程中较少见，可能为自定义类/模块名，或指代某种抓取/提取动作（如 claw back 表示追回）；  "}
+{"word": "codes", "translation": "codes：code 的复数形式，表示“代码、编码、指令集”；  "}
+{"word": "compute", "translation": "compute：动词原形，表示“计算、运算”，常用于 compute node（计算节点）、compute engine（计算引擎）等；  "}
+{"word": "copy", "translation": "copy：动词/名词，表示“复制”；  "}
+{"word": "cut", "translation": "cut：动词/名词，表示“剪切”；  "}
+{"word": "decrypt", "translation": "decrypt：de- + crypt，表示“解密”；  "}
+{"word": "delayed", "translation": "delayed：delay 的过去分词，表示“延迟的、延时的”；  "}
+{"word": "deliver", "translation": "deliver：表示“交付、投递”，如 deliver message（发送消息）、deliver result（返回结果）；  "}
+{"word": "derive", "translation": "derive：表示“推导、导出”，如 derive class（派生类）、derive formula（推导公式）；  "}
+{"word": "difflib", "translation": "difflib：diff + lib，是 Python 标准库模块名，全称 difference library，即“差异比较库”；  "}
+{"word": "dingtalk", "translation": "dingtalk：钉钉，阿里巴巴集团旗下的企业通讯与协同办公平台；  "}
+{"word": "disabled", "translation": "disabled：disable 的过去分词，表示“已禁用的”；  "}
+{"word": "draft", "translation": "draft：表示“草稿、草案”，如 draft email（草稿邮件）；"}
+{"word": "encode", "translation": "encode 的缩写，表示 编码（将数据转换为特定格式的过程）；  "}
+{"word": "encrypt", "translation": "encrypt 的缩写，表示 加密（将明文转换为密文以保护信息安全）；  "}
+{"word": "escape", "translation": "escape 的缩写，表示 转义（在字符串或代码中处理特殊字符，如 \\n、\\\" 等）；  "}
+{"word": "execv", "translation": "execv 的缩写，表示 execute with vector（带参数向量的执行），Unix/Linux 系统调用，用于执行新程序；  "}
+{"word": "failed", "translation": "failed 的缩写，表示 失败（操作未成功完成的状态）；  "}
+{"word": "fd", "translation": "fd 的缩写，表示 file descriptor（文件描述符），操作系统中用于标识打开文件的整数；  "}
+{"word": "flags", "translation": "flags 的缩写，表示 标志位（flag 的复数），用于控制程序行为或表示状态的二进制位组合；  "}
+{"word": "fmt", "translation": "fmt 的缩写，表示 format（格式化），常用于字符串格式化函数（如 Python 的 str.format 或 f-string）；  "}
+{"word": "generate", "translation": "generate 的缩写，表示 生成（创建或构造数据、代码、输出等）；  "}
+{"word": "guessed", "translation": "guessed 的缩写，表示 猜测（推测或近似估计的结果）；  "}
+{"word": "homeserver", "translation": "homeserver 的专有名词，表示 主服务器 / 家庭服务器（常用于分布式系统或 Matrix 协议中指用户数据的归属服务器）；  "}
+{"word": "identity", "translation": "identity 的缩写，表示 身份（用户、设备或服务的唯一标识，如 ID、证书等）；  "}
+{"word": "ignore", "translation": "ignore 的缩写，表示 忽略（跳过某项操作或错误，不进行处理）；  "}
+{"word": "imaplib", "translation": "imaplib 的缩写，表示 Internet Message Access Protocol library（IMAP 协议库），Python 标准库中用于处理电子邮件接收的模块；  "}
+{"word": "iterdir", "translation": "iterdir 的缩写，表示 iterate directory（遍历目录），常用于 pathlib.Path.iterdir() 方法，返回目录下所有条目；  "}
+{"word": "ln", "translation": "ln 的缩写，表示 link（链接），Unix/Linux 命令，用于创建硬链接或符号链接（symbolic link）；  "}
+{"word": "lowered", "translation": "lowered 的缩写，表示 转为小写（lower 的过去分词/形容词形式），如字符串调用 .lower() 后的状态；  "}
+{"word": "lstrip", "translation": "lstrip 的缩写，表示 left strip（左端去除），Python 字符串方法，用于移除字符串开头的指定字符（默认为空白符）；  "}
+{"word": "main", "translation": "main 的缩写，表示 主函数（程序入口点，如 Python 中的 if __name__ == \"__main__\": 下的 main() 函数）；  "}
+{"word": "matches", "translation": "matches 的缩写，表示 匹配（match 的复数形式），指符合某种模式或条件的结果集合；"}
+{"word": "merged", "translation": "merged：merge 的过去分词，表示已合并的；  "}
+{"word": "multiline", "translation": "multiline：multi-line 的缩写，表示多行的；  "}
+{"word": "partial", "translation": "partial：部分的，不完整的；  "}
+{"word": "pick", "translation": "pick：pick 的过去式/过去分词，表示挑选、选取；  "}
+{"word": "populated", "translation": "populated：populate 的过去分词，表示已填充的、已填充数据的；  "}
+{"word": "real", "translation": "real：真实的、实际的；  "}
+{"word": "reg", "translation": "reg：register 或 regulation 或 registry 的缩写，常见于编程中指 register（寄存器）或 registry（注册表）；  "}
+{"word": "rejects", "translation": "rejects：reject 的复数形式，表示被拒绝的项；  "}
+{"word": "rel", "translation": "rel：relation 或 relative 的缩写，常见于数据库或数学中表示关系（relation）或相对的（relative）；  "}
+{"word": "remember", "translation": "remember：记住、保留（动词原形）；  "}
+{"word": "requirements", "translation": "requirements：requirement 的复数形式，表示需求；  "}
+{"word": "res", "translation": "res：result 或 resource 的缩写，常见于编程中表示结果（result）或资源（resource）；  "}
+{"word": "restore", "translation": "restore：恢复、还原（动词原形）；  "}
+{"word": "rstrip", "translation": "rstrip：right strip 的缩写，表示从字符串右侧（末尾）移除指定字符（如空格、换行符等）；  "}
+{"word": "setitem", "translation": "setitem：set item 的缩写，常用于 Python 中实现 `__setitem__` 方法，表示设置索引/键对应的值；  "}
+{"word": "sets", "translation": "sets：set 的复数形式，表示集合；  "}
+{"word": "sha256", "translation": "sha256：Secure Hash Algorithm 256-bit 的缩写，即 SHA-256 安全哈希算法（256位）；  "}
+{"word": "single", "translation": "single：单个的、单一的；  "}
+{"word": "sliced", "translation": "sliced：slice 的过去分词，表示已切片的；  "}
+{"word": "smtplib", "translation": "smtplib：Simple Mail Transfer Protocol library 的缩写，即简单邮件传输协议库（Python 标准库模块）。"}
+{"word": "starttls", "translation": "starttls：Start TLS 的缩写，表示“启动传输层安全协议”，用于在已建立的明文连接上升级为加密连接；  "}
+{"word": "stem", "translation": "stem：词干，通常指自然语言处理中对单词进行词干提取（stemming）的操作；  "}
+{"word": "terminal", "translation": "terminal：终端，指命令行界面（CLI）或终端模拟器；  "}
+{"word": "threading", "translation": "threading：线程，指 Python 中的多线程编程模块；  "}
+{"word": "throw", "translation": "throw：抛出，通常指在异常处理中主动抛出异常（如 throw exception）；  "}
+{"word": "tiktoken", "translation": "tiktoken：TikToken，OpenAI 开源的高效分词器（tokenizer）库，用于处理 GPT 模型的 tokenization；  "}
+{"word": "tls", "translation": "tls：Transport Layer Security 的缩写，传输层安全协议，用于网络通信加密；  "}
+{"word": "unconsolidated", "translation": "unconsolidated：未合并的，指数据或报表中尚未进行汇总或整合的状态；  "}
+{"word": "unexpected", "translation": "unexpected：意外的，通常用于表示程序中出现未预期的输入、状态或异常；  "}
+{"word": "used", "translation": "used：已使用的，表示某资源、变量或对象已被使用；  "}
+{"word": "weakref", "translation": "weakref：弱引用（Weak Reference），Python 中用于创建不增加对象引用计数的引用，避免循环引用；  "}
+{"word": "whatsapp", "translation": "whatsapp：WhatsApp，一款全球流行的即时通讯应用；  "}
+{"word": "Application", "translation": "Application：应用程序（Application 的完整拼写），指软件程序；  "}
+{"word": "Credential", "translation": "Credential：凭证（Credential 的完整拼写），如用户名/密码、API Key、证书等身份认证信息；  "}
+{"word": "Custom", "translation": "Custom：自定义的（Custom 的完整拼写），指用户自行配置或扩展的选项；  "}
+{"word": "Interrupt", "translation": "Interrupt：中断（Interrupt 的完整拼写），如键盘中断（Ctrl+C）或信号中断；  "}
+{"word": "Keyboard", "translation": "Keyboard：键盘（Keyboard 的完整拼写），常用于表示键盘输入事件（如 KeyboardInterrupt）；  "}
+{"word": "Stdio", "translation": "Stdio：Standard Input/Output 的缩写，标准输入/输出流，通常指终端的 stdin/stdout；  "}
+{"word": "account", "translation": "account：账户（account 的完整拼写），指用户账号或云服务账户；  "}
+{"word": "acompletion", "translation": "acompletion：async completion 的缩写，表示异步完成（如异步调用大模型生成文本）；"}
+{"word": "alt", "translation": "alt 的缩写，通常指 alternate（替代、备用）或 Alt 键（键盘按键）；  "}
+{"word": "apply", "translation": "apply 表示 应用、应用（函数/方法）；  "}
+{"word": "atype", "translation": "atype 可能为 attribute type 或 argument type 的缩写，表示 属性类型 或 参数类型；  "}
+{"word": "available", "translation": "available 表示 可用的、可获得的；  "}
+{"word": "bg", "translation": "bg 的缩写，常见含义包括 background（背景）、background process（后台进程），或在 Windows 中指 background（如任务管理器中的后台进程）；  "}
+{"word": "checked", "translation": "checked 表示 已勾选的、已选中的（常用于复选框状态）；  "}
+{"word": "connecting", "translation": "connecting 表示 正在连接中（connect 的现在分词）；  "}
+{"word": "control", "translation": "control 表示 控制、控件（如 GUI 中的按钮、文本框等）；  "}
+{"word": "copilot", "translation": "copilot 专有名词，指 GitHub Copilot（微软推出的 AI 编程助手）或 Microsoft Copilot（通用 AI 助手）；  "}
+{"word": "crlf", "translation": "crlf 的缩写，即 carriage return + line feed（回车+换行），Windows 系统中的换行符（\\r\\n）；  "}
+{"word": "cur", "translation": "cur 的缩写，常见为 current（当前的）或 cursor（光标）；  "}
+{"word": "deduped", "translation": "deduped 的缩写，为 deduplicated 的过去分词/形容词形式，表示 已去重的；  "}
+{"word": "deny", "translation": "deny 表示 拒绝、禁止（如权限控制中的 deny 权限）；  "}
+{"word": "depth", "translation": "depth 表示 深度（如递归深度、树深度、图像深度等）；  "}
+{"word": "desc", "translation": "desc 的缩写，为 description（描述）或 descending（降序）的简写；  "}
+{"word": "devices", "translation": "devices 的复数形式，表示 设备（如硬件设备、输入设备等）；  "}
+{"word": "dicts", "translation": "dicts 的复数形式，为 dictionaries（字典）的简写，常用于编程中表示多个字典对象；  "}
+{"word": "directory", "translation": "directory 表示 目录（文件系统中的文件夹）；  "}
+{"word": "dirs", "translation": "dirs 的复数形式，为 directories（目录）的简写；  "}
+{"word": "disable", "translation": "disable 表示 禁用、关闭（功能/服务/控件等）；"}
+{"word": "discard", "translation": "discard 的动词原形，表示丢弃、舍弃；  "}
+{"word": "disconnect", "translation": "disconnect 的动词原形，表示断开连接；  "}
+{"word": "downloaded", "translation": "downloaded 是 download 的过去分词/形容词形式，表示已下载的；  "}
+{"word": "err", "translation": "err 是 error 的缩写，表示错误；  "}
+{"word": "escaped", "translation": "escaped 是 escape 的过去分词/形容词形式，表示已转义的、已逃避的；  "}
+{"word": "exact", "translation": "exact 的形容词，表示精确的、准确的；  "}
+{"word": "existing", "translation": "existing 的形容词，表示已存在的；  "}
+{"word": "extensions", "translation": "extensions 是 extension 的复数形式，表示扩展、扩展名（如文件扩展名）；  "}
+{"word": "extractor", "translation": "extractor 是 extractor 的名词形式，表示提取器（如数据提取工具）；  "}
+{"word": "fails", "translation": "fails 是 fail 的第三人称单数或复数形式，表示失败；  "}
+{"word": "falls", "translation": "falls 是 fall 的第三人称单数或复数形式，表示下降、落入；  "}
+{"word": "false", "translation": "false 的形容词，表示错误的、假的；  "}
+{"word": "finditer", "translation": "finditer 是 Python 中 re 模块的函数名，为 find iterator 的缩写，表示返回匹配项迭代器的函数；  "}
+{"word": "force", "translation": "force 的动词/名词，表示强制、迫使；  "}
+{"word": "frames", "translation": "frames 是 frame 的复数形式，表示帧（如视频帧、HTML 帧、调用栈帧等）；  "}
+{"word": "github", "translation": "github 是专有名词，指 GitHub（全球代码托管与协作平台）；  "}
+{"word": "half", "translation": "half 的名词/形容词，表示一半；  "}
+{"word": "hashes", "translation": "hashes 是 hash 的复数形式，表示哈希值（如 MD5、SHA 等摘要结果）；  "}
+{"word": "help", "translation": "help 的动词/名词，表示帮助；  "}
+{"word": "hints", "translation": "hints 是 hint 的复数形式，表示提示、暗示；"}
+{"word": "hyphen", "translation": "hyphen：连字符（用于连接单词或表示断音）；  "}
+{"word": "identify", "translation": "identify：动词原形，表示“识别、辨认”；  "}
+{"word": "ignores", "translation": "ignores：动词 ignores 的第三人称单数形式，表示“忽略、忽视”；  "}
+{"word": "iv", "translation": "iv：通常为 item 的罗马数字编号（如 iv 表示第4项），或 index variable（索引变量）的缩写；  "}
+{"word": "length", "translation": "length：长度，表示字符串、列表等的长度；  "}
+{"word": "link", "translation": "link：链接，表示超链接或链接关系；  "}
+{"word": "mid", "translation": "mid：middle 的缩写，常表示“中间位置”或“中点”，如字符串截取的起始位置；  "}
+{"word": "mk", "translation": "mk：可能为 make 的缩写（如 mktemp、mkfifo），或 markdown 的缩写（较少见，需结合上下文）；  "}
+{"word": "mrkdwn", "translation": "mrkdwn：markdown 的拼写变体（常见于某些 API 或库中为避免与系统关键字冲突而拼写为 mrkdwn）；  "}
+{"word": "msgtype", "translation": "msgtype：message type 的缩写，表示消息类型；  "}
+{"word": "ne", "translation": "ne：not equal 的缩写，常用于比较运算符（如在 shell 或某些配置语言中表示“不等于”）；  "}
+{"word": "over", "translation": "over：介词，表示“超过、在……之上”，也可能指覆盖、重叠；  "}
+{"word": "paragraphs", "translation": "paragraphs：paragraph 的复数形式，表示段落；  "}
+{"word": "pattern", "translation": "pattern：模式、正则表达式模式，用于匹配文本；  "}
+{"word": "pc", "translation": "pc：可能为 percent（百分比）的缩写，或 personal computer（个人计算机），或 program counter（程序计数器），需结合上下文；  "}
+{"word": "posix", "translation": "posix：Portable Operating System Interface 的缩写，表示 POSIX 标准（Unix 系统接口标准）；  "}
+{"word": "preserves", "translation": "preserves：动词 preserves 的第三人称单数形式，表示“保留、保持、保存”；  "}
+{"word": "preview", "translation": "preview：预览，表示提前查看内容；  "}
+{"word": "query", "translation": "query：查询，表示数据库或 API 查询操作；  "}
+{"word": "react", "translation": "react：动词原形，表示“响应、反应”，在编程中常指 React 框架或对事件的响应行为；"}
+{"word": "reconnect", "translation": "reconnect：重新连接（re-重新 + connect连接）；  "}
+{"word": "resets", "translation": "resets：reset 的复数形式或第三人称单数，表示重置、复位；  "}
+{"word": "respond", "translation": "respond：响应、回应（动词原形）；  "}
+{"word": "retries", "translation": "retries：retry 的复数形式或第三人称单数，表示重试；  "}
+{"word": "saved", "translation": "saved：save 的过去式或过去分词，表示已保存；  "}
+{"word": "scheme", "translation": "scheme：方案、计划、架构；在编程中常指 URI scheme（如 http://、file://）；  "}
+{"word": "second", "translation": "second：秒（时间单位），或第二（序数词）；  "}
+{"word": "silent", "translation": "silent：静默的、无声的；在编程中常指“静默模式”（不输出日志等）；  "}
+{"word": "socketio", "translation": "socketio：Socket.IO 的缩写，是一个基于 WebSocket 的实时通信库；  "}
+{"word": "st", "translation": "st：常见缩写，可能为 status（状态）、standard（标准）、second（秒，较少见）或 specific type（特定类型）等，需结合上下文；  "}
+{"word": "stat", "translation": "stat：status（状态）或 statistics（统计信息）的缩写；在 Unix/Linux 中也指系统调用 `stat()`（获取文件状态）；  "}
+{"word": "subagents", "translation": "subagents：subagent 的复数形式，sub- 表示“子”，agents 表示“代理”，即子代理；  "}
+{"word": "succeeds", "translation": "succeeds：succeed 的第三人称单数形式，表示成功、接替、继任；  "}
+{"word": "symlink", "translation": "symlink：symbolic link 的缩写，符号链接（一种特殊文件类型，类似快捷方式）；  "}
+{"word": "synthetic", "translation": "synthetic：合成的、人工的、模拟的；在测试中常指 synthetic data（合成数据）或 synthetic test（模拟测试）；  "}
+{"word": "tail", "translation": "tail：尾部；在命令行中指 `tail` 命令（显示文件末尾内容）；也可作动词，表示“跟踪（日志）尾部”；  "}
+{"word": "tb", "translation": "tb：常见缩写，可能为 traceback（回溯，常用于错误日志）、terabyte（TB，数据单位）、to-be（待定）或 time-based（基于时间）等，需结合上下文；  "}
+{"word": "tick", "translation": "tick：滴答声；在编程中常指时钟节拍（如游戏循环中的 tick）、定时器事件或数据更新周期；  "}
+{"word": "tid", "translation": "tid：thread ID 的缩写，表示线程 ID（Thread Identifier）；  "}
+{"word": "track", "translation": "track：跟踪、追踪（动词原形）；在监控/日志系统中常指 track events（跟踪事件）；"}
+{"word": "unverified", "translation": "unverified 的缩写，表示“未验证的”；  "}
+{"word": "uuid4", "translation": "uuid4 的缩写，表示 UUID 版本 4（Universally Unique Identifier version 4），即基于随机数生成的通用唯一标识符；  "}
+{"word": "welcome", "translation": "welcome 的原形，表示“欢迎”；  "}
+{"word": "worker", "translation": "worker 的原形，表示“工作线程”或“工作者”；  "}
+{"word": "xml", "translation": "xml 的缩写，表示 Extensible Markup Language（可扩展标记语言）；  "}
+{"word": "C2", "translation": "C2 的缩写，可能指 Command and Control（命令与控制），在网络安全中常用于描述恶意软件与攻击者服务器的通信；也可能指 Python 中的 C2 类型（如 ctypes 中的 C 语言二级指针类型）；  "}
+{"word": "Loguru", "translation": "Loguru 的专有名词，指一个 Python 日志库，旨在简化日志记录；  "}
+{"word": "Persistence", "translation": "Persistence 的原形，表示“持久化”，指数据或状态在程序重启后仍能保留的能力；  "}
+{"word": "Var", "translation": "Var 的缩写，可能是 Variable（变量）的缩写，也可能是 Python 中某些库（如 Pyro4）中的 Var 类；  "}
+{"word": "Z", "translation": "Z 的原形，通常为变量名或缩写，可能表示 Zone（时区）、Zero（零）、Zip（压缩）等，需结合上下文；  "}
+{"word": "Zip", "translation": "Zip 的原形，表示压缩格式 ZIP，也常用于 Python 的 zipfile 模块；  "}
+{"word": "adds", "translation": "adds 的原形 add 的复数形式或第三人称单数，表示“添加”；  "}
+{"word": "ai", "translation": "ai 的缩写，表示 Artificial Intelligence（人工智能）；  "}
+{"word": "arcname", "translation": "arcname 的缩写，表示 archive name（归档文件名），常见于 zipfile 等压缩库中；  "}
+{"word": "argparse", "translation": "argparse 的原形，是 Python 标准库中的模块名，用于解析命令行参数（Argument Parser）；  "}
+{"word": "array", "translation": "array 的原形，表示“数组”，常见于 Python 的 array 模块或 numpy 等库；  "}
+{"word": "as", "translation": "as 的原形，是 Python 关键字，用于导入模块时指定别名（如 import numpy as np）或异常处理中绑定异常对象；  "}
+{"word": "asset", "translation": "asset 的原形，表示“资产”，在程序中常指资源文件（如图片、音频、模型权重等）；  "}
+{"word": "awaited", "translation": "awaited 的原形 await 的过去分词/形容词形式，表示“被等待的”，用于异步编程（async/await）中；  "}
+{"word": "base64", "translation": "base64 的原形，是一种编码方案（Base64 encoding），用于将二进制数据转换为 ASCII 字符串格式；"}
+{"word": "basic", "translation": "basic 的缩写，表示 基本的、基础的；  "}
+{"word": "between", "translation": "between 表示“在……之间”，常用于范围判断或区间操作；  "}
+{"word": "caching", "translation": "caching 的缩写，表示 缓存（cache 的动名词或名词形式）；  "}
+{"word": "captures", "translation": "captures 的缩写，表示 捕获（capture 的复数形式或动词第三人称单数）；  "}
+{"word": "chain", "translation": "chain 表示 链、链条，常用于链式调用、链式结构（如函数链、对象链）；  "}
+{"word": "check", "translation": "check 表示 检查、验证；  "}
+{"word": "cid", "translation": "cid 的缩写，常见含义包括：  "}
+{"word": "ciphertext", "translation": "- connection ID（连接标识符）；  "}
+{"word": "classes", "translation": "- class ID（类标识符）；  "}
+{"word": "clears", "translation": "- customer ID（客户标识符）；  "}
+{"word": "col", "translation": "- content ID（内容标识符）；  "}
+{"word": "counter", "translation": "- 在数据库中也可能指 cluster ID；  "}
+{"word": "cp", "translation": "ciphertext 表示 密文（加密后的不可读数据）；  "}
+{"word": "creates", "translation": "classes 的缩写，表示 类（class 的复数形式，面向对象编程中的类）；  "}
+{"word": "ctype", "translation": "clears 的缩写，表示 清除（clear 的第三人称单数或复数形式）；  "}
+{"word": "dates", "translation": "col 的缩写，表示 column（列），常用于表格、数据库或数组操作；  "}
+{"word": "dedupe", "translation": "counter 表示 计数器（用于统计次数的变量或对象）；  "}
+{"word": "denied", "translation": "cp 的缩写，常见含义包括：  "}
+{"word": "diff", "translation": "- copy（复制，如 Linux/macOS 中的 cp 命令）；  "}
+{"word": "dr", "translation": "- checkpoint（检查点）；  "}
+{"word": "dw", "translation": "dw：可能为 download 的缩写，表示下载；也可能是 data warehouse（数据仓库）的缩写；  "}
+{"word": "eid", "translation": "eid：entity ID 的缩写，表示实体标识符；  "}
+{"word": "enable", "translation": "enable：启用、使能；  "}
+{"word": "encoding", "translation": "encoding：编码；  "}
+{"word": "ev", "translation": "ev：event 的缩写，表示事件；也可能为 event variable（事件变量）或 evolution（演化）等上下文缩写；  "}
+{"word": "expiry", "translation": "expiry：expiration（过期、到期）的名词形式；  "}
+{"word": "failure", "translation": "failure：失败；  "}
+{"word": "fileno", "translation": "fileno：file number 的缩写，表示文件描述符（文件句柄编号）；  "}
+{"word": "findall", "translation": "findall：find all 的组合，表示查找所有匹配项（常见于正则表达式函数 re.findall）；  "}
+{"word": "folder", "translation": "folder：文件夹；  "}
+{"word": "fromisoformat", "translation": "fromisoformat：from ISO format 的缩写，表示从 ISO 8601 格式字符串解析时间对象（如 datetime.fromisoformat）；  "}
+{"word": "guild", "translation": "guild：行会、公会；在编程中常指 Discord 中的服务器（server）；  "}
+{"word": "headings", "translation": "headings：heading 的复数，表示标题、小节标题；  "}
+{"word": "href", "translation": "href：Hypertext Reference 的缩写，表示超链接目标地址（HTML 属性）；  "}
+{"word": "initialize", "translation": "initialize：初始化；  "}
+{"word": "inner", "translation": "inner：内部的、内部函数/变量；  "}
+{"word": "intro", "translation": "intro：introduction 的缩写，表示引言、简介；  "}
+{"word": "keywords", "translation": "keywords：keyword 的复数，表示关键字参数（如 Python 中的 **kwargs）；  "}
+{"word": "llm", "translation": "llm：Large Language Model 的缩写，表示大语言模型；  "}
+{"word": "logged", "translation": "logged：log 的过去分词，表示已记录（如日志已记录）；"}
+{"word": "logout", "translation": "logout 的缩写，表示登出、退出登录；  "}
+{"word": "malformed", "translation": "malformed 表示格式错误的、结构不正确的；  "}
+{"word": "month", "translation": "month 表示月份；  "}
+{"word": "msgpack", "translation": "msgpack 是 MessagePack 的缩写，一种高效的二进制序列化格式；  "}
+{"word": "ncols", "translation": "ncols 表示 number of columns，即列数；  "}
+{"word": "nh3", "translation": "nh3 表示氨（Ammonia）的化学式；  "}
+{"word": "non", "translation": "non 表示 non- 的前缀，常用于表示“非……”，如 non-zero（非零）；  "}
+{"word": "none", "translation": "none 表示空值、无，Python 中的 None 类型；  "}
+{"word": "norm", "translation": "norm 表示 norm（范数），常用于数学或线性代数中；  "}
+{"word": "note", "translation": "note 表示笔记、注释、备注；  "}
+{"word": "notice", "translation": "notice 表示通知、公告、注意；  "}
+{"word": "num", "translation": "num 是 number 的缩写，表示数字、数量；  "}
+{"word": "number", "translation": "number 表示数字、编号；  "}
+{"word": "numbered", "translation": "numbered 表示编号的、有编号的；  "}
+{"word": "outside", "translation": "outside 表示外部、在……之外；  "}
+{"word": "pkgutil", "translation": "pkgutil 是 package utility 的缩写，Python 标准库中用于处理包的工具模块；  "}
+{"word": "pn", "translation": "pn 可能是 page number（页码）、part number（部件编号）或 product number（产品编号）的缩写，具体含义需结合上下文；  "}
+{"word": "popitem", "translation": "popitem 表示弹出项，Python 字典方法，用于移除并返回一个键值对；  "}
+{"word": "processing", "translation": "processing 表示处理、加工、进行中；  "}
+{"word": "pt", "translation": "pt 是 point（点）、paragraph（段落）或 page（页）的缩写，也可能是 Python 中的 point 类型缩写，需结合上下文；"}
+{"word": "recursive", "translation": "recursive 的缩写，表示递归的；  "}
+{"word": "reference", "translation": "reference 的缩写，表示引用、参考；  "}
+{"word": "reset", "translation": "reset 的缩写，表示重置；  "}
+{"word": "rmtree", "translation": "rmtree 的缩写，表示 remove tree（递归删除目录树）；  "}
+{"word": "round", "translation": "round 的缩写，表示四舍五入、回合；  "}
+{"word": "sc", "translation": "sc 的缩写，可能指 service control（服务控制）、screen（屏幕）、或 specific（特定的）等，需结合上下文；  "}
+{"word": "secrets", "translation": "secrets 的缩写，表示密钥、机密信息（如 Python 的 secrets 模块）；  "}
+{"word": "sep", "translation": "sep 的缩写，表示 separator（分隔符），如 os.sep；  "}
+{"word": "serializer", "translation": "serializer 的缩写，表示序列化器；  "}
+{"word": "snapshot", "translation": "snapshot 的缩写，表示快照；  "}
+{"word": "specs", "translation": "specs 的缩写，表示 specifications（规格、规范）；  "}
+{"word": "stays", "translation": "stays 的缩写，表示保持、停留（动词 stay 的第三人称单数或复数形式）；  "}
+{"word": "std", "translation": "std 的缩写，表示 standard（标准），如 stdio（标准输入输出）、std::（C++ 标准库）；  "}
+{"word": "step", "translation": "step 的缩写，表示步骤、步长；  "}
+{"word": "subscribed", "translation": "subscribed 的缩写，表示已订阅（subscribe 的过去分词）；  "}
+{"word": "template", "translation": "template 的缩写，表示模板；  "}
+{"word": "then", "translation": "then 的缩写，表示然后、当时（逻辑连接词）；  "}
+{"word": "think", "translation": "think 的缩写，表示思考、认为；  "}
+{"word": "thought", "translation": "thought 的缩写，表示思考（think 的过去式/过去分词）；  "}
+{"word": "threshold", "translation": "threshold 的缩写，表示阈值、临界值；"}
+{"word": "times", "translation": "times：time 的复数形式，表示“次数”或“时间”；  "}
+{"word": "trim", "translation": "trim：动词原形，表示“修剪、裁剪、去除多余部分”；  "}
+{"word": "truncated", "translation": "truncated：truncate 的过去分词/形容词形式，表示“被截断的”；  "}
+{"word": "truncation", "translation": "truncation：truncate 的名词形式，表示“截断、截短操作”；  "}
+{"word": "txt", "translation": "txt：text 的缩写，表示“文本文件”或“纯文本”；  "}
+{"word": "unicodedata", "translation": "unicodedata：Unicode Data 的缩写，通常指 Python 标准库模块 `unicodedata`，用于处理 Unicode 字符属性；  "}
+{"word": "until", "translation": "until：介词/连词，表示“直到……为止”；  "}
+{"word": "vllm", "translation": "vllm：variable-length language model 的缩写，或特指开源项目 vLLM（一种高效大语言模型推理引擎）；  "}
+{"word": "warn", "translation": "warn：动词原形，表示“警告、提醒”；  "}
+{"word": "warns", "translation": "warns：warn 的第三人称单数形式；  "}
+{"word": "which", "translation": "which：关系代词，表示“哪一个、哪些”；  "}
+{"word": "widths", "translation": "widths：width 的复数形式，表示“宽度”；  "}
+{"word": "within", "translation": "within：介词，表示“在……之内、在……范围内”；  "}
+{"word": "word", "translation": "word：名词，表示“单词、字”；  "}
+{"word": "zipf", "translation": "zipf：Zipf 的缩写，指 Zipf 定律（Zipf's law），一种描述词频分布的经验定律；  "}
+{"word": "Abstract", "translation": "Abstract：抽象（名词/形容词），常用于编程中表示“抽象类”或“摘要”；  "}
+{"word": "Alias", "translation": "Alias：别名（名词/动词），表示“替代名称”；  "}
+{"word": "Assertion", "translation": "Assertion：断言（名词），常用于编程中表示“断言语句”；  "}
+{"word": "Cancellation", "translation": "Cancellation：取消（名词），表示“取消操作”或“取消请求”；  "}
+{"word": "Cleaner", "translation": "Cleaner：清洁器/清理器（名词），常指用于清理数据、缓存或资源的工具类或函数；"}
+{"word": "Dictionary", "translation": "Dictionary：字典，Python 中的一种数据结构，用于存储键值对；  "}
+{"word": "Dispatcher", "translation": "Dispatcher：分发器，常用于任务调度或消息分发的组件；  "}
+{"word": "Generator", "translation": "Generator：生成器，Python 中一种惰性计算的迭代器对象；  "}
+{"word": "Logic", "translation": "Logic：逻辑，表示程序中的逻辑判断或业务规则；  "}
+{"word": "P4", "translation": "P4：第4层（如OSI模型中的传输层），或指编程语言P4（用于网络数据平面编程）；  "}
+{"word": "Rule", "translation": "Rule：规则，表示用于匹配、过滤或决策的条件语句；  "}
+{"word": "Weak", "translation": "Weak：弱的，常用于 weak reference（弱引用）或 weak authentication（弱认证）等语境；  "}
+{"word": "about", "translation": "about：关于，表示与某主题相关；  "}
+{"word": "above", "translation": "above：在……之上，表示位置或顺序上的上方；  "}
+{"word": "address", "translation": "address：地址，如内存地址、网络地址（IP地址）、函数地址等；  "}
+{"word": "again", "translation": "again：再次，表示重复执行某操作；  "}
+{"word": "archives", "translation": "archives：归档文件，通常指压缩打包的文件集合（archive 的复数形式）；  "}
+{"word": "attempts", "translation": "attempts：尝试次数（attempt 的复数形式），常用于重试机制；  "}
+{"word": "attribute", "translation": "attribute：属性，对象的成员变量或元数据；  "}
+{"word": "authenticated", "translation": "authenticated：已认证的，表示通过身份验证的状态；  "}
+{"word": "b64", "translation": "b64：base64 的缩写，一种常见的编码方式，用于将二进制数据转为文本格式；  "}
+{"word": "behavior", "translation": "behavior：行为，指对象、系统或程序的运行表现或响应方式；  "}
+{"word": "below", "translation": "below：在……之下，表示位置或顺序上的下方；  "}
+{"word": "big", "translation": "big：大的，常用于表示大端序（big-endian）或数值较大；  "}
+{"word": "byteplus", "translation": "byteplus：字节跳动旗下的云服务品牌 BytePlus Cloud（现称“火山引擎”），也可能指字节跳动（ByteDance）相关技术组件；"}
+{"word": "camel", "translation": "camel 的缩写，通常指 camelCase（驼峰命名法），一种变量或函数命名风格；  "}
+{"word": "cancels", "translation": "cancels 的复数形式，表示取消操作（cancel 的复数）；  "}
+{"word": "canonical", "translation": "canonical 的形容词形式，表示规范的、标准的、规范化的；  "}
+{"word": "canonicalize", "translation": "canonicalize 的动词形式，表示规范化、标准化（如将数据转换为标准格式）；  "}
+{"word": "case", "translation": "case 的名词或动词形式，表示情况、案例、测试用例，或在编程中指 switch-case 中的分支；  "}
+{"word": "cb", "translation": "cb 的常见缩写，通常为 callback（回调函数）的缩写；  "}
+{"word": "ce", "translation": "ce 的常见缩写，可能为 cancel event（取消事件）、cell editor（单元格编辑器）或特定上下文中的缩写（如 JavaScript 中的 `console.error` 的误写，但更常见为特定库中的缩写）；  "}
+{"word": "coding", "translation": "coding 的动名词或名词形式，表示编码、编程；  "}
+{"word": "collect", "translation": "collect 的动词原形，表示收集、聚集（如数据收集、集合操作）；  "}
+{"word": "column", "translation": "column 的名词，表示列（如数据库表、表格中的一列）；  "}
+{"word": "columns", "translation": "columns 的复数形式，表示多列；  "}
+{"word": "completion", "translation": "completion 的名词，表示完成、补全（如代码补全 completion、任务完成）；  "}
+{"word": "completions", "translation": "completions 的复数形式，表示多个完成项或补全建议；  "}
+{"word": "configure", "translation": "configure 的动词原形，表示配置、设置；  "}
+{"word": "criteria", "translation": "criteria 的名词复数形式，是 criterion 的复数，表示标准、准则；  "}
+{"word": "croniter", "translation": "croniter 的专有名词，指 Python 中一个用于解析和迭代 cron 表达式的第三方库；  "}
+{"word": "debounced", "translation": "debounced 的形容词形式，来自 debounce（去抖动），表示经过去抖动处理的（常用于事件防抖）；  "}
+{"word": "decision", "translation": "decision 的名词，表示决策、判断；  "}
+{"word": "decorator", "translation": "decorator 的名词，表示装饰器（Python 中用于修改函数或类行为的高阶函数）；  "}
+{"word": "defs", "translation": "defs 的复数形式，通常是 definition（定义）的缩写，如函数定义、常量定义等；"}
+{"word": "dirty", "translation": "dirty 的缩写，表示“脏的”，在编程中常指未清理或未提交的缓存、状态或数据；  "}
+{"word": "disconnected", "translation": "disconnected 的过去式/过去分词，表示“已断开连接”，常用于网络或设备连接状态；  "}
+{"word": "do", "translation": "do 的原形动词，表示“做、执行”，在代码中常用于命令或操作名称；  "}
+{"word": "due", "translation": "due 的形容词，表示“到期的、应得的”，如 due time（到期时间）、due date（截止日期）；  "}
+{"word": "dump", "translation": "dump 的动词/名词，表示“转储、倾倒”，常指将内存、数据或日志完整输出到文件；  "}
+{"word": "effect", "translation": "effect 的名词，表示“效果、影响”，如 side effect（副作用）；  "}
+{"word": "enqueue", "translation": "enqueue 的动词，表示“入队”，即把元素添加到队列尾部；  "}
+{"word": "entered", "translation": "entered 的过去式/过去分词，表示“已进入”，常用于记录进入某个状态或函数；  "}
+{"word": "exceeds", "translation": "exceeds 的动词三单形式，表示“超过、超出”，如 exceeds limit（超出限制）；  "}
+{"word": "executable", "translation": "executable 的形容词/名词，表示“可执行的”，常指可执行文件（executable file）；  "}
+{"word": "expanded", "translation": "expanded 的过去式/过去分词，表示“已展开”，如 expanded path（展开后的路径）；  "}
+{"word": "extracts", "translation": "extracts 的动词三单形式，表示“提取”，如 extracts data（提取数据）；  "}
+{"word": "extras", "translation": "extras 的复数名词，表示“额外项、附加功能”，如 package extras（额外依赖）；  "}
+{"word": "failing", "translation": "failing 的动名词/形容词，表示“失败的、若失败时”，如 failing test（失败的测试）；  "}
+{"word": "fatal", "translation": "fatal 的形容词，表示“致命的”，如 fatal error（致命错误）；  "}
+{"word": "filesize", "translation": "filesize 的复合名词，表示“文件大小”（file size 的缩写）；  "}
+{"word": "fixup", "translation": "fixup 的名词/动词，表示“修正、修复”，常用于程序启动时的地址重定位或补丁修正；  "}
+{"word": "fname", "translation": "fname 的缩写，表示 filename（文件名）；  "}
+{"word": "friendly", "translation": "friendly 的形容词，表示“友好的”，如 user-friendly（用户友好的）；  "}
+{"word": "fullmatch", "translation": "fullmatch 的名词/函数名，表示“完全匹配”，常用于正则表达式中要求整个字符串完全匹配模式；"}
+{"word": "generic", "translation": "generic 的缩写，表示通用的、泛型的；  "}
+{"word": "grace", "translation": "grace 的缩写，表示优雅、宽限期（如 grace period）；  "}
+{"word": "hex", "translation": "hex 的缩写，表示十六进制（hexadecimal）；  "}
+{"word": "hexdigest", "translation": "hexdigest 的缩写，表示十六进制字符串形式的哈希值（hexadecimal digest）；  "}
+{"word": "history1", "translation": "history1 的缩写，通常表示第一个历史记录（history 的变体或版本标识）；  "}
+{"word": "history2", "translation": "history2 的缩写，通常表示第二个历史记录（history 的变体或版本标识）；  "}
+{"word": "img", "translation": "img 的缩写，表示图像（image）；  "}
+{"word": "inbox", "translation": "inbox 的缩写，表示收件箱（in-box），常用于消息、邮件或任务队列的接收区域；  "}
+{"word": "includes", "translation": "includes 的缩写，表示包含的文件或模块（include 的复数形式）；  "}
+{"word": "indented", "translation": "indented 的缩写，表示缩进的（indent 的过去分词形式）；  "}
+{"word": "insert", "translation": "insert 的缩写，表示插入（动词原形）；  "}
+{"word": "into", "translation": "into 的缩写，表示“进入……中”，常用于 SQL 或数据操作语句中；  "}
+{"word": "invalidate", "translation": "invalidate 的缩写，表示使失效、使无效（动词原形）；  "}
+{"word": "ispkg", "translation": "ispkg 的缩写，表示 is package，用于判断某路径是否为包（常用于 Python 模块系统）；  "}
+{"word": "issubclass", "translation": "issubclass 的缩写，表示 is subclass，用于判断一个类是否为另一个类的子类（Python 内置函数）；  "}
+{"word": "listeners", "translation": "listeners 的缩写，表示监听器（listener 的复数形式），常用于事件驱动编程；  "}
+{"word": "mem", "translation": "mem 的缩写，表示内存（memory）；  "}
+{"word": "migrate", "translation": "migrate 的缩写，表示迁移（如数据库迁移、代码迁移等）；  "}
+{"word": "mixed", "translation": "mixed 的缩写，表示混合的（mix 的过去分词形式）；  "}
+{"word": "modify", "translation": "modify 的缩写，表示修改（动词原形）；"}
+{"word": "modules", "translation": "modules 的复数形式，表示模块（module 的复数）；  "}
+{"word": "msg1", "translation": "message 1 的缩写，通常表示第一条消息；  "}
+{"word": "msg2", "translation": "message 2 的缩写，通常表示第二条消息；  "}
+{"word": "multiple", "translation": "multiple 的完整形式，表示多个、多重；  "}
+{"word": "my", "translation": "my 的完整形式，通常表示“我的”，常用于变量名表示当前用户或实例相关；  "}
+{"word": "nested", "translation": "nested 的完整形式，表示嵌套的；  "}
+{"word": "nick", "translation": "nick 的完整形式，通常为 nickname 的缩写，表示昵称；  "}
+{"word": "normalisation", "translation": "normalisation 的完整形式（英式拼写），即 normalization，表示归一化；  "}
+{"word": "nullcontext", "translation": "nullcontext 的完整形式，通常指 Python 中的 `nullcontext` 上下文管理器，表示无操作上下文；  "}
+{"word": "oapi", "translation": "oapi 的缩写，通常指 Open API（开放接口）；  "}
+{"word": "omits", "translation": "omits 的完整形式，即 omit 的第三人称单数或过去分词，表示省略、忽略；  "}
+{"word": "openid", "translation": "openid 的完整形式，指 OpenID（开放身份验证协议）；  "}
+{"word": "opt", "translation": "opt 的缩写，通常为 option 或 optional 的缩写，表示选项、可选参数；  "}
+{"word": "p2p", "translation": "p2p 的缩写，即 peer-to-peer，表示点对点（网络通信模式）；  "}
+{"word": "parseaddr", "translation": "parseaddr 的缩写，即 parse address 的组合，表示解析地址（常用于邮件地址解析）；  "}
+{"word": "pending", "translation": "pending 的完整形式，表示待处理的、挂起的；  "}
+{"word": "pfx", "translation": "pfx 的缩写，通常指 prefix（前缀），或在某些场景下指 Personal Information Exchange（如 .pfx 证书文件格式）；  "}
+{"word": "placeholder", "translation": "placeholder 的完整形式，表示占位符；  "}
+{"word": "plaintext", "translation": "plaintext 的完整形式，表示明文（未加密的原始文本）；  "}
+{"word": "plan", "translation": "plan 的完整形式，表示计划、方案，或在特定上下文中指规划（如任务计划、路径规划等）。"}
+{"word": "prefers", "translation": "prefers：prefer 的第三人称单数形式，表示“更喜欢”；  "}
+{"word": "prefixes", "translation": "prefixes：prefix 的复数形式，表示“前缀”；  "}
+{"word": "prev", "translation": "prev：previous 的缩写，表示“上一个、前一个”；  "}
+{"word": "probe", "translation": "probe：名词或动词，表示“探测器、探针”或“探测、检查”；  "}
+{"word": "prompt1", "translation": "prompt1：prompt 的编号形式，通常表示“第一个提示（如AI模型输入提示）”；  "}
+{"word": "prompt2", "translation": "prompt2：prompt 的编号形式，通常表示“第二个提示”；  "}
+{"word": "put", "translation": "put：动词原形，表示“放置、放入”；  "}
+{"word": "qsize", "translation": "qsize：queue size 的缩写，表示“队列大小”；  "}
+{"word": "quoted", "translation": "quoted：quote 的过去分词/形容词形式，表示“被引用的、带引号的”；  "}
+{"word": "recompute", "translation": "recompute：re- + compute，表示“重新计算”；  "}
+{"word": "reconfigure", "translation": "reconfigure：re- + configure，表示“重新配置”；  "}
+{"word": "remainder", "translation": "remainder：名词，表示“余数、剩余部分”；  "}
+{"word": "reminder", "translation": "reminder：名词，表示“提醒、备忘”；  "}
+{"word": "respects", "translation": "respects：respect 的复数形式，常用于短语 in respects of / with respect to（关于、就……而言）；  "}
+{"word": "rfind", "translation": "rfind：right find 的缩写（或 reverse find），表示“从右向左查找（字符串中最后一次出现的位置）”；  "}
+{"word": "rglob", "translation": "rglob：recursive glob 的缩写，表示“递归匹配文件路径（glob 模式）”；  "}
+{"word": "robot", "translation": "robot：名词，表示“机器人”；  "}
+{"word": "rooms", "translation": "rooms：room 的复数形式，表示“房间”；  "}
+{"word": "routes", "translation": "routes：route 的复数形式，表示“路由、路径、路线”；  "}
+{"word": "rsplit", "translation": "rsplit：right split 的缩写，表示“从右向左分割字符串”；"}
+{"word": "runs", "translation": "runs 的复数形式，通常表示“运行次数”或“执行轮次”（run 的复数）；  "}
+{"word": "sanitizes", "translation": "sanitizes 是 sanitize 的第三人称单数，表示“清理、净化（数据或输入）”；  "}
+{"word": "seed", "translation": "seed 的原形，表示“种子”，常用于随机数生成中的初始值；  "}
+{"word": "sends", "translation": "sends 是 send 的第三人称单数，表示“发送”；  "}
+{"word": "serializes", "translation": "serializes 是 serialize 的第三人称单数，表示“序列化”；  "}
+{"word": "setup", "translation": "setup 的原形，表示“设置、配置、初始化”；  "}
+{"word": "shape", "translation": "shape 的原形，表示“形状”，常用于描述数组或张量的维度结构；  "}
+{"word": "share", "translation": "share 的原形，表示“共享”；  "}
+{"word": "short", "translation": "short 的原形，表示“短的、简短的”，也可作名词表示“ shorts”（短裤）或缩写（如 short int）；  "}
+{"word": "side", "translation": "side 的原形，表示“边、侧、侧面”，在编程中常指“side effect”（副作用）或“sidecar”等架构概念；  "}
+{"word": "sig", "translation": "sig 通常是 signal（信号）或 signature（签名、特征）的缩写；  "}
+{"word": "signum", "translation": "signum 的原形，数学/编程中表示“符号函数”（sign function），返回数值的符号（-1, 0, +1）；  "}
+{"word": "skipped", "translation": "skipped 是 skip 的过去分词/过去式，表示“被跳过的”；  "}
+{"word": "slackify", "translation": "slackify 是动词，由 Slack（一款协作工具）派生而来，表示“转换为 Slack 格式”或“发送到 Slack”；  "}
+{"word": "smaller", "translation": "smaller 是 small 的比较级，表示“更小的”；  "}
+{"word": "splitext", "translation": "splitext 是 split extension 的缩写，常见于 Python 的 os.path.splitext()，表示“分离文件名与扩展名”；  "}
+{"word": "stable", "translation": "stable 的原形，表示“稳定的”，常用于算法（如 stable sort）；  "}
+{"word": "staff", "translation": "staff 的原形，本义为“员工、职员”，在编程中较少见，可能为特定上下文缩写（如 Staff = State Transition And Function Framework？需结合领域判断）；  "}
+{"word": "stops", "translation": "stops 是 stop 的复数，表示“停止点、终止条件”；  "}
+{"word": "streamable", "translation": "streamable 的原形，表示“可流式处理的”，常用于描述支持流式传输或处理的数据/对象；"}
+{"word": "streaming", "translation": "streaming 的缩写，表示流式传输、流处理；  "}
+{"word": "strftime", "translation": "strftime 的缩写，表示 string format time，用于将时间对象格式化为字符串；  "}
+{"word": "sum", "translation": "sum 的缩写，表示求和（数学运算或编程中的累加操作）；  "}
+{"word": "than", "translation": "than 的完整形式，表示“比”，用于比较结构（如 greater than）；  "}
+{"word": "threaded", "translation": "threaded 的过去分词/形容词形式，表示“多线程的”，常用于描述支持或采用线程机制的程序；  "}
+{"word": "three", "translation": "three 的完整形式，表示数字“三”；  "}
+{"word": "timers", "translation": "timers 的复数形式，表示计时器（timer 的复数），常用于定时任务或性能计时；  "}
+{"word": "timezone", "translation": "timezone 的完整形式，表示时区；  "}
+{"word": "true", "translation": "true 的完整形式，布尔值“真”，与 false 相对；  "}
+{"word": "truediv", "translation": "truediv 的缩写，表示 true division（真除法），即 Python 中的 `/` 运算符（返回浮点结果），区别于 floor division（`//`）；  "}
+{"word": "tty", "translation": "tty 的缩写，表示 teletypewriter（电传打字机），现代指终端设备（如伪终端 /dev/pts/0）；  "}
+{"word": "two", "translation": "two 的完整形式，表示数字“二”；  "}
+{"word": "unavailable", "translation": "unavailable 的完整形式，表示“不可用的”；  "}
+{"word": "unescape", "translation": "unescape 的完整形式，表示“取消转义”，即对已转义的字符串（如 HTML 实体或 URL 编码）进行解码还原；  "}
+{"word": "unknown", "translation": "unknown 的完整形式，表示“未知的”；  "}
+{"word": "unquote", "translation": "unquote 的完整形式，表示“取消引用”或“解码”，常用于 URL 解码（如 urllib.parse.unquote）；  "}
+{"word": "urljoin", "translation": "urljoin 的完整形式，表示“URL 拼接”，用于将相对 URL 与基础 URL 合并为绝对 URL；  "}
+{"word": "utcnow", "translation": "utcnow 的缩写，表示 UTC now，即获取当前的 UTC 时间（Coordinated Universal Time）；  "}
+{"word": "v2", "translation": "v2 的完整形式，表示 version 2，即第二版、版本2；  "}
+{"word": "validation", "translation": "validation 的完整形式，表示“验证”，如数据校验、输入合法性检查等；"}
+{"word": "verbose", "translation": "verbose 的缩写，表示冗长的、详尽的（常用于描述输出信息的详细程度）；  "}
+{"word": "verification", "translation": "verification 的缩写，表示验证、校验；  "}
+{"word": "verify", "translation": "verify 的动词原形，表示验证、确认；  "}
+{"word": "video", "translation": "video 的名词，表示视频；  "}
+{"word": "volcengine", "translation": "volcengine 的专有名词，指火山引擎（字节跳动旗下的云计算服务品牌）；  "}
+{"word": "win", "translation": "win 的缩写，通常为 window 的缩写，表示窗口；也可能指 Windows 操作系统；  "}
+{"word": "zero", "translation": "zero 的名词，表示零、零值；  "}
+{"word": "16k", "translation": "16k 的数字缩写，通常指 16,384（2¹⁴），在上下文中可能表示上下文长度（如大模型输入/输出长度为 16k tokens）；  "}
+{"word": "Archival", "translation": "Archival 的名词或形容词形式，来自 archive（归档），表示归档的、用于长期存储的；  "}
+{"word": "Conditions", "translation": "Conditions 的名词复数，来自 condition，表示条件、状况；  "}
+{"word": "Edge", "translation": "Edge 的名词，表示边缘（如边缘计算 edge computing）、边缘节点、边界；  "}
+{"word": "Handling", "translation": "Handling 的动名词/名词，来自 handle，表示处理、应对；  "}
+{"word": "Immutability", "translation": "Immutability 的名词，来自 immutable，表示不可变性；  "}
+{"word": "Immutable", "translation": "Immutable 的形容词，表示不可变的；  "}
+{"word": "Implemented", "translation": "Implemented 的过去分词/形容词，来自 implement，表示已实现的；  "}
+{"word": "Matcher", "translation": "Matcher 的名词，来自 match，表示匹配器（用于匹配模式、规则等的组件）；  "}
+{"word": "Monkey", "translation": "Monkey 的名词，通常指“猴子测试”（monkey testing），即随机、无规则的自动化测试；  "}
+{"word": "Protocol", "translation": "Protocol 的名词，表示协议（如通信协议、数据交换协议）；  "}
+{"word": "Sequence", "translation": "Sequence 的名词，表示序列、顺序；  "}
+{"word": "Signals", "translation": "Signals 的名词复数，来自 signal，表示信号（如操作系统信号、事件通知信号）；"}
+{"word": "Tracking", "translation": "Tracking：跟踪、追踪（通常指程序或系统中的追踪功能）；  "}
+{"word": "accepted", "translation": "accepted：接受的（动词 accept 的过去分词形式，表示已被接受）；  "}
+{"word": "aihubmix", "translation": "aihubmix：专有名词，可能指 AI Hub Mix（一个AI资源聚合平台或项目名称）；  "}
+{"word": "aiter", "translation": "aiter：异步迭代器（async iterator 的缩写，Python 中用于异步循环的迭代器对象）；  "}
+{"word": "allowlist", "translation": "allowlist：允许列表（allow list 的合并写法，与 blacklist 相对，指被授权访问的名单）；  "}
+{"word": "allows", "translation": "allows：允许（动词 allow 的第三人称单数形式）；  "}
+{"word": "alternative", "translation": "alternative：替代的、可选的（形容词），或替代方案（名词）；  "}
+{"word": "ambiguous", "translation": "ambiguous：模糊的、模棱两可的（形容词）；  "}
+{"word": "animation", "translation": "animation：动画（名词，常用于图形界面或数据可视化中）；  "}
+{"word": "anthropic", "translation": "anthropic：安thropic（专有名词，指 Anthropic 公司，美国一家人工智能研究公司，以开发 Claude 系列大模型闻名）；  "}
+{"word": "appends", "translation": "appends：追加（动词 append 的第三人称单数形式）；  "}
+{"word": "are", "translation": "are：是（动词 be 的复数形式）；  "}
+{"word": "aread", "translation": "aread：可能是 area read 的缩写，表示区域读取；也可能是 typo，应为 are 或 read，但若为自定义变量名，可理解为“已读区域”（area read）；  "}
+{"word": "ascii", "translation": "ascii：美国信息交换标准代码（American Standard Code for Information Interchange），一种字符编码标准；  "}
+{"word": "asian", "translation": "asian：亚洲的（形容词），或亚洲人（名词）；  "}
+{"word": "astimezone", "translation": "astimezone：转换时区（方法名，通常为 datetime 对象的 .astimezone() 方法，表示将时间转换为指定时区）；  "}
+{"word": "attaches", "translation": "attaches：附加、附上（动词 attach 的第三人称单数形式）；  "}
+{"word": "b64encode", "translation": "b64encode：Base64 编码（base64 encode 的缩写，常用于将二进制数据编码为 ASCII 字符串）；  "}
+{"word": "backed", "translation": "backed：被支持的、被 backing（支持/ backing storage）的（动词 back 的过去分词）；  "}
+{"word": "beats", "translation": "beats：节拍（名词，常用于监控系统如 Beats，如 Filebeat、Metricbeat 等）；"}
+{"word": "beyond", "translation": "beyond：超出、超越；  "}
+{"word": "both", "translation": "both：两者都、两个都；  "}
+{"word": "budget", "translation": "budget：预算；  "}
+{"word": "but", "translation": "but：但是、然而；  "}
+{"word": "caches", "translation": "caches：cache 的复数形式，表示缓存（计算机中用于临时存储数据的高速存储器）；  "}
+{"word": "cancelling", "translation": "cancelling：cancel 的现在分词/动名词形式，表示取消、中止；  "}
+{"word": "canonicalizes", "translation": "canonicalizes：canonicalize 的第三人称单数形式，表示规范化、标准化（如将数据转换为标准格式）；  "}
+{"word": "capitalize", "translation": "capitalize：使大写、资本化（如将字符串首字母大写，或在财务中资本化某项支出）；  "}
+{"word": "capped", "translation": "capped：cap 的过去式/过去分词，表示被限制、被封顶（如设置上限）；  "}
+{"word": "changes", "translation": "changes：change 的复数形式或第三人称单数动词，表示变更、修改；  "}
+{"word": "char", "translation": "char：character 的缩写，表示字符；  "}
+{"word": "chmod", "translation": "chmod：change mode 的缩写，Unix/Linux 系统中用于更改文件或目录权限的命令；  "}
+{"word": "chr", "translation": "chr：character 的缩写，Python 中用于将整数转换为对应 Unicode 字符的内置函数；  "}
+{"word": "clock", "translation": "clock：时钟、时钟信号（可指系统时钟、实时时钟或程序中的计时器）；  "}
+{"word": "co", "translation": "co：company 或 corporation 的缩写，常用于公司名称（如 Google LLC 中的 \"LLC\" 类似），也可能指 co- 前缀（如 co-author 协作者）；  "}
+{"word": "communicate", "translation": "communicate：通信、交流；  "}
+{"word": "confirm", "translation": "confirm：确认、核实；  "}
+{"word": "connection", "translation": "connection：连接、连接状态（如网络连接、数据库连接）；  "}
+{"word": "consolidates", "translation": "consolidates：consolidate 的第三人称单数形式，表示合并、整合、 consolidation（如数据 consolidation）；  "}
+{"word": "contains", "translation": "contains：contain 的第三人称单数形式，表示包含、含有；"}
+{"word": "continues", "translation": "continues：continue 的第三人称单数形式，表示“继续、持续”；  "}
+{"word": "copytree", "translation": "copytree：copy tree 的缩写，表示“复制树形结构”（常用于文件系统中递归复制目录树）；  "}
+{"word": "correct", "translation": "correct：形容词，表示“正确的”；动词，表示“纠正、修正”；  "}
+{"word": "counts", "translation": "counts：count 的第三人称单数或复数形式，表示“计数、数量”；  "}
+{"word": "creator", "translation": "creator：名词，表示“创建者、作者”；  "}
+{"word": "currentframe", "translation": "currentframe：current + frame，表示“当前帧”（常用于视频、动画或调试上下文中）；  "}
+{"word": "dashscope", "translation": "dashscope：专有名词，指“DashScope”（阿里云推出的大模型服务与开发平台）；  "}
+{"word": "day", "translation": "day：名词，表示“天、日”；  "}
+{"word": "decrypts", "translation": "decrypts：decrypt 的第三人称单数形式，表示“解密”；  "}
+{"word": "deepseek", "translation": "deepseek：专有名词，指“DeepSeek”（深度求索，一家中国人工智能公司）；  "}
+{"word": "delegates", "translation": "delegates：delegate 的第三人称单数或复数形式，表示“委托、代表”；  "}
+{"word": "detects", "translation": "detects：detect 的第三人称单数形式，表示“检测、发现”；  "}
+{"word": "different", "translation": "different：形容词，表示“不同的、各异的”；  "}
+{"word": "digits", "translation": "digits：digit 的复数形式，表示“数字（0–9）”；  "}
+{"word": "disables", "translation": "disables：disable 的第三人称单数形式，表示“禁用、使失效”；  "}
+{"word": "disallowed", "translation": "disallowed：disallow 的过去分词或形容词形式，表示“不允许的、被禁止的”；  "}
+{"word": "disposition", "translation": "disposition：名词，表示“处置、处理方式、倾向性”；  "}
+{"word": "downloads", "translation": "downloads：download 的第三人称单数或复数形式，表示“下载”；  "}
+{"word": "drive", "translation": "drive：名词，表示“驱动器、磁盘驱动”；动词，表示“驱动、驱动程序运行”；  "}
+{"word": "drop", "translation": "drop：动词，表示“丢弃、删除、下拉”；名词，表示“下拉、投放、掉落”；"}
+{"word": "e2", "translation": "e2：可能为 version 2 的缩写，表示第二版（如 E2 = Edition 2 或 Event 2）；  "}
+{"word": "east", "translation": "east：东方；  "}
+{"word": "emit", "translation": "emit：发射、发出（动词原形，常用于编程中表示“发出事件”）；  "}
+{"word": "enum", "translation": "enum：enumeration 的缩写，表示枚举类型；  "}
+{"word": "envelope", "translation": "envelope：信封；在编程中常指消息封装、数据包封装；  "}
+{"word": "eof", "translation": "eof：end of file 的缩写，表示文件结束；  "}
+{"word": "everything", "translation": "everything：一切、所有内容；  "}
+{"word": "exactly", "translation": "exactly：精确地、准确地；  "}
+{"word": "exceed", "translation": "exceed：超过、超出；  "}
+{"word": "executes", "translation": "executes：execute 的第三人称单数或动词原形复数形式，表示执行；  "}
+{"word": "expandvars", "translation": "expandvars：expand variables 的缩写，表示展开变量（常见于 shell 或路径处理函数）；  "}
+{"word": "explicitly", "translation": "explicitly：显式地、明确地；  "}
+{"word": "flag", "translation": "flag：标志、标志位；  "}
+{"word": "follow", "translation": "follow：跟随、遵循；  "}
+{"word": "formats", "translation": "formats：format 的复数形式，表示格式；  "}
+{"word": "fresh", "translation": "fresh：新鲜的、新的；在编程中常表示“重新生成”“不使用缓存”；  "}
+{"word": "fromkeys", "translation": "fromkeys：from keys 的缩写，Python 中 dict 类方法，表示从可迭代对象的键创建新字典；  "}
+{"word": "fromtimestamp", "translation": "fromtimestamp：from timestamp 的缩写，Python 中 datetime 类方法，表示从时间戳创建时间对象；  "}
+{"word": "full", "translation": "full：完整的、全量的；  "}
+{"word": "gaps", "translation": "gaps：gap 的复数形式，表示间隙、空缺、间隔；"}
+{"word": "gemini", "translation": "gemini：双子座（拉丁语），常指 Google 的 Gemini 大语言模型；  "}
+{"word": "getcwd", "translation": "getcwd：get current working directory 的缩写，表示获取当前工作目录；  "}
+{"word": "glob", "translation": "glob：global 的缩写形式之一，但在编程中通常指“通配符匹配”功能（如 Python 的 glob 模块），用于匹配文件路径模式；  "}
+{"word": "global", "translation": "global：全局的，表示作用域为全局范围的变量、函数或属性；  "}
+{"word": "hash", "translation": "hash：哈希，指哈希函数或哈希值，用于将输入数据映射为固定长度的唯一标识；  "}
+{"word": "hides", "translation": "hides：hide 的第三人称单数形式，表示“隐藏”，常用于描述隐藏文件或隐藏属性；  "}
+{"word": "honors", "translation": "honors：honor 的第三人称单数形式，表示“遵守、遵循”，如“honors the configuration setting”意为“遵循配置设置”；  "}
+{"word": "idempotent", "translation": "idempotent：幂等的，指多次执行相同操作与执行一次效果一致的特性（常见于 API 设计）；  "}
+{"word": "immediately", "translation": "immediately：立即地，表示不延迟、马上执行；  "}
+{"word": "indices", "translation": "indices：index 的复数形式，表示多个索引（如数组、列表的下标）；  "}
+{"word": "infers", "translation": "infers：infer 的第三人称单数形式，表示“推断、推导”，如模型自动推断类型或行为；  "}
+{"word": "inject", "translation": "inject：注入，指将依赖、参数或代码动态插入到系统中的操作（如依赖注入、代码注入）；  "}
+{"word": "intercepted", "translation": "intercepted：intercept 的过去分词，表示“被拦截”，常用于描述网络请求、函数调用等被中间层截获；  "}
+{"word": "internal", "translation": "internal：内部的，指模块、函数或变量仅在当前作用域或系统内部可见/使用；  "}
+{"word": "isalnum", "translation": "isalnum：is alphanumeric 的缩写，表示“是否为字母或数字”，常用于字符串判断；  "}
+{"word": "isatty", "translation": "isatty：is a teletype (terminal) 的缩写，表示“是否连接到终端设备”，用于判断标准输入/输出是否为交互式终端；  "}
+{"word": "isdigit", "translation": "isdigit：is digit 的缩写，表示“是否为数字字符”；  "}
+{"word": "isfile", "translation": "isfile：is file 的缩写，表示“是否为文件”（常用于路径判断）；  "}
+{"word": "isspace", "translation": "isspace：is space 的缩写，表示“是否全为空白字符”（如空格、制表符、换行等）；  "}
+{"word": "joins", "translation": "joins：join 的第三人称单数或复数形式，表示“连接、合并”，如字符串拼接、列表合并等；"}
+{"word": "just", "translation": "just 的副词，表示“仅仅、刚刚”；  "}
+{"word": "kept", "translation": "kept 的动词过去式/过去分词，keep 的变体，表示“保持、保留”；  "}
+{"word": "kill", "translation": "kill 的动词原形，表示“终止、杀死”，在编程中常指“终止进程”；  "}
+{"word": "large", "translation": "large 的形容词，表示“大的、大型的”；  "}
+{"word": "lc", "translation": "lc 可能为 lowercase 的缩写（小写字母），或 local variable 的缩写（局部变量），也可能是特定上下文中的缩写（如 load cell、line count 等），需结合语境；  "}
+{"word": "leading", "translation": "leading 的形容词，表示“领先的、开头的”，如 leading zero（前导零）、leading character（首字符）；  "}
+{"word": "letters", "translation": "letters 的名词复数，表示“字母”，如英文字母 a–z；  "}
+{"word": "levelname", "translation": "levelname 的复合词，由 level + name 构成，常用于日志系统中表示日志级别名称（如 \"INFO\"、\"ERROR\"）；  "}
+{"word": "levelno", "translation": "levelno 的复合词，由 level + number 构成，常用于日志系统中表示日志级别的数字编号（如 INFO=20，ERROR=40）；  "}
+{"word": "localhost", "translation": "localhost 的复合词，由 local + host 构成，表示“本地主机”，即本机地址（通常为 127.0.0.1）；  "}
+{"word": "loops", "translation": "loops 的名词复数，loop 的复数，表示“循环”，如 for 循环、while 循环；  "}
+{"word": "machine", "translation": "machine 的名词，表示“机器”，在编程中常指“虚拟机”、“物理机”或“计算节点”；  "}
+{"word": "marks", "translation": "marks 的名词复数，mark 的复数，表示“标记、记号”，如测试中的标记（pytest.mark）、代码标记等；  "}
+{"word": "member", "translation": "member 的名词，表示“成员”，如类的成员变量、对象的属性、集合中的元素等；  "}
+{"word": "met", "translation": "met 的动词过去式，meet 的变体，表示“遇到、满足”，如“条件已满足”；  "}
+{"word": "minimax", "translation": "minimax 的名词/形容词，源自“minimum maximum”，表示“极小极大算法”，一种博弈论与搜索中的经典算法；  "}
+{"word": "modified", "translation": "modified 的形容词/过去分词，modify 的变体，表示“被修改的”；  "}
+{"word": "moonshot", "translation": "moonshot 的名词，直译为“登月计划”，在科技领域特指高风险高回报的突破性项目；此处可能指“月之暗面”（Moonshot AI）公司或其模型（如 Moonshot AI 的 Kimi）；  "}
+{"word": "most", "translation": "most 的形容词/副词，表示“最多的、最……的”，如 most common（最常见）、most likely（最可能）；  "}
+{"word": "move", "translation": "move 的动词原形，表示“移动”，在编程中常指“移动语义”（如 C++ 的 std::move）、“移动文件/对象”等；"}
+{"word": "multimodal", "translation": "multimodal 的缩写，表示多模态（指同时处理多种类型数据，如文本、图像、音频等）；  "}
+{"word": "multipart", "translation": "multipart 的缩写，表示多部分（常用于 HTTP 请求或文件上传中，指由多个部分组成的实体）；  "}
+{"word": "mx", "translation": "mx 可能是 matrix（矩阵）或 maximum（最大值）的缩写，也可能是特定框架中的变量名（如 MXNet 中的张量）；  "}
+{"word": "namelist", "translation": "namelist 的缩写，表示名称列表（常用于配置文件或编程中，指一组命名项的集合）；  "}
+{"word": "needed", "translation": "needed 的缩写，表示“需要的”，为 need 的过去分词/形容词形式；  "}
+{"word": "negative", "translation": "negative 的缩写，表示负数、负值，或否定的、负面的；  "}
+{"word": "netloc", "translation": "netloc 的缩写，表示 network location（网络位置），常用于 URL 解析中，指主机名和端口号部分；  "}
+{"word": "never", "translation": "never 的缩写，表示“从不”，为副词，强调永不、绝不；  "}
+{"word": "normal", "translation": "normal 的缩写，表示正常的、标准的，或数学中的法向量、正态分布等；  "}
+{"word": "numbers", "translation": "numbers 的缩写，表示数字、数值（number 的复数形式）；  "}
+{"word": "of", "translation": "of 的缩写，表示“……的”，介词，用于表示所属、来源、内容等关系；  "}
+{"word": "one", "translation": "one 的缩写，表示“一”或“某个”，常用于默认值或逻辑判断中；  "}
+{"word": "openrouter", "translation": "openrouter 的专有名词，指 OpenRouter（一个提供多种大模型 API 调用的开放平台）；  "}
+{"word": "options", "translation": "options 的缩写，表示选项、参数配置项（option 的复数形式）；  "}
+{"word": "overlap", "translation": "overlap 的缩写，表示重叠、交集（常用于时间、范围、数据等的重合部分）；  "}
+{"word": "overwrite", "translation": "overwrite 的缩写，表示覆盖、重写（动词原形，常用于文件操作或变量赋值场景）；  "}
+{"word": "p2", "translation": "p2 可能是 point-to-point（点对点）的缩写，或指 position 2、page 2 等上下文中的编号；  "}
+{"word": "parameter", "translation": "parameter 的缩写，表示参数（函数或算法中的输入变量）；  "}
+{"word": "parents", "translation": "parents 的缩写，表示父级、父对象（parent 的复数形式），常用于路径、树结构或继承关系中；  "}
+{"word": "parsebytes", "translation": "parsebytes 的缩写，表示解析字节（parse + bytes），指将字节数据解析为特定格式（如整数、字符串等）；"}
+{"word": "parses", "translation": "parses：parse 的第三人称单数形式，表示“解析”；  "}
+{"word": "passes", "translation": "passes：pass 的第三人称单数或复数形式，表示“通过”“轮次”或“遍次”；  "}
+{"word": "pathsep", "translation": "pathsep：path separator 的缩写，表示路径分隔符；  "}
+{"word": "periodically", "translation": "periodically：副词，表示“周期性地”“定期地”；  "}
+{"word": "popleft", "translation": "popleft：pop left 的组合，常用于队列操作，表示从左侧弹出元素（如 collections.deque.popleft）；  "}
+{"word": "preflight", "translation": "preflight：preflight check 的缩写，表示“预检”“预检查”（如 API 调用前的验证）；  "}
+{"word": "proactive", "translation": "proactive：形容词，表示“主动的”“积极主动的”；  "}
+{"word": "processes", "translation": "processes：process 的第三人称单数或复数形式，表示“进程”或“处理”；  "}
+{"word": "propagate", "translation": "propagate：动词，表示“传播”“传递”“传播（如错误、信号、数据等）”；  "}
+{"word": "provided", "translation": "provided：provide 的过去式或过去分词，也常用于条件语句（如 `if ... provided`），表示“若提供……”；  "}
+{"word": "publishes", "translation": "publishes：publish 的第三人称单数形式，表示“发布”（如消息、数据、事件等）；  "}
+{"word": "python", "translation": "python：专有名词，指 Python 编程语言；  "}
+{"word": "qq", "translation": "qq：缩写，通常指腾讯 QQ 即时通讯软件；也可能指“quick question”（快速提问），但在技术语境中多指腾讯 QQ；  "}
+{"word": "reactions", "translation": "reactions：reaction 的复数形式，表示“反应”（如用户操作响应、化学反应、事件响应等）；  "}
+{"word": "readline", "translation": "readline：read line 的组合，表示“读取一行”（如文件操作中的 readline 方法）；  "}
+{"word": "recent", "translation": "recent：形容词，表示“最近的”“近期的”；  "}
+{"word": "recognition", "translation": "recognition：名词，表示“识别”（如语音识别 speech recognition、图像识别 image recognition）；  "}
+{"word": "refreshes", "translation": "refreshes：refresh 的第三人称单数形式，表示“刷新”（如页面刷新、数据刷新）；  "}
+{"word": "reload", "translation": "reload：动词原形，表示“重新加载”（如模块重载、页面重载）；  "}
+{"word": "remain", "translation": "remain：动词原形，表示“剩余”“保持”“继续存在”；"}
+{"word": "reports", "translation": "reports：report 的复数形式，表示报告（如日志报告、测试报告等）；  "}
+{"word": "repr", "translation": "repr：representation 的缩写，表示对象的字符串表示形式（Python 中常用于 `__repr__` 方法）；  "}
+{"word": "required", "translation": "required：require 的过去分词/形容词形式，表示“必需的、必须的”；  "}
+{"word": "responds", "translation": "responds：respond 的第三人称单数形式，表示“响应、回应”；  "}
+{"word": "restriction", "translation": "restriction：restrict 的名词形式，表示“限制、约束”；  "}
+{"word": "returncode", "translation": "returncode：return code 的组合词，表示“返回码”（如程序执行后的退出状态码）；  "}
+{"word": "reversed", "translation": "reversed：reverse 的过去分词或形容词形式，表示“反转的、逆序的”；  "}
+{"word": "rewrites", "translation": "rewrites：rewrite 的复数形式或第三人称单数动词，表示“重写（操作、规则、代码等）”；  "}
+{"word": "roundtrip", "translation": "roundtrip：名词或动词，表示“往返行程”；在计算机领域常指“往返通信”（如请求-响应完整周期）；  "}
+{"word": "segments", "translation": "segments：segment 的复数形式，表示“分段、片段”（如内存分段、HTTP 分块传输等）；  "}
+{"word": "separate", "translation": "separate：形容词或动词，表示“分开的、独立的”或“分离、分开”；  "}
+{"word": "serialized", "translation": "serialized：serialize 的过去分词/形容词形式，表示“已序列化的”（如将对象转换为字节流）；  "}
+{"word": "sha1", "translation": "sha1：Secure Hash Algorithm 1 的缩写，表示一种常用的加密哈希算法（SHA-1）；  "}
+{"word": "shapes", "translation": "shapes：shape 的复数形式，表示“形状、轮廓”（如数据形状、几何形状等）；  "}
+{"word": "shared", "translation": "shared：share 的过去分词/形容词形式，表示“共享的”；  "}
+{"word": "shell", "translation": "shell：名词，表示“壳层”；在计算机中常指“命令行解释器”（如 Bash、PowerShell）；  "}
+{"word": "shield", "translation": "shield：名词，表示“盾牌、防护层”；在编程/安全中常指“防护机制、防火墙、安全屏障”；  "}
+{"word": "shows", "translation": "shows：show 的第三人称单数形式，表示“显示、展示”；  "}
+{"word": "shutdown", "translation": "shutdown：名词或动词，表示“关闭、关机”（如系统关闭、服务停止）；  "}
+{"word": "siliconflow", "translation": "siliconflow：专有名词，指“硅基流动”（中国一家专注于大模型推理与部署的 AI 公司，SiliconFlow）；"}
+{"word": "since", "translation": "since：自……以来（时间或条件的起始点）；  "}
+{"word": "slash", "translation": "slash：斜杠（/ 或 \\），常用于路径分隔符；  "}
+{"word": "sources", "translation": "sources：source 的复数形式，表示数据源、源文件或源代码；  "}
+{"word": "strips", "translation": "strips：strip 的复数形式，表示去除字符串首尾空白或指定字符的操作；  "}
+{"word": "subscript", "translation": "subscript：下标（如数学中的 x₁ 中的 1），或下标操作；  "}
+{"word": "suffixes", "translation": "suffixes：suffix 的复数形式，表示后缀（如文件扩展名 .txt）；  "}
+{"word": "superscript", "translation": "superscript：上标（如数学中的 x² 中的 2），或上标操作；  "}
+{"word": "supported", "translation": "supported：support 的过去分词/形容词形式，表示“被支持的”；  "}
+{"word": "tcflush", "translation": "tcflush：terminal control flush 的缩写，终端控制中的刷新缓冲区函数；  "}
+{"word": "tcgetattr", "translation": "tcgetattr：terminal control get attributes 的缩写，获取终端属性的函数；  "}
+{"word": "tcsetattr", "translation": "tcsetattr：terminal control set attributes 的缩写，设置终端属性的函数；  "}
+{"word": "threadsafe", "translation": "threadsafe：thread safe 的合成词，表示线程安全的；  "}
+{"word": "tracks", "translation": "tracks：track 的复数形式，表示音轨、追踪记录或数据轨迹；  "}
+{"word": "trailing", "translation": "trailing：trailing 的形容词形式，表示“尾部的、末尾的”，如 trailing whitespace（尾部空格）；  "}
+{"word": "triggers", "translation": "triggers：trigger 的复数形式，表示触发器（如数据库触发器、事件触发机制）；  "}
+{"word": "trims", "translation": "trims：trim 的复数形式，表示修剪操作（如去除字符串首尾字符）；  "}
+{"word": "tzinfo", "translation": "tzinfo：timezone information 的缩写，表示时区信息对象（Python 中 datetime 模块的类）；  "}
+{"word": "under", "translation": "under：在……之下，常用于前缀如 _variable（下划线前缀）或表示层级关系；  "}
+{"word": "underscore", "translation": "underscore：下划线（_），常用于变量命名、路径分隔等；  "}
+{"word": "unified", "translation": "unified：unify 的过去分词/形容词形式，表示“统一的、整合的”。"}
+{"word": "unlink", "translation": "unlink 的缩写，表示取消链接（如文件系统中的取消硬链接操作）；  "}
+{"word": "unmentioned", "translation": "unmentioned 的形容词形式，表示未被提及的；  "}
+{"word": "unregister", "translation": "unregister 的动词原形，表示取消注册、注销；  "}
+{"word": "unseen", "translation": "unseen 的形容词形式，表示未被看到的、隐藏的；  "}
+{"word": "untrusted", "translation": "untrusted 的形容词形式，表示不可信的；  "}
+{"word": "uploads", "translation": "uploads 的动词 upload 的复数名词形式，表示上传的文件或上传操作；  "}
+{"word": "upper", "translation": "upper 的形容词形式，表示上层的、较高的；  "}
+{"word": "various", "translation": "various 的形容词形式，表示各种各样的、多样的；  "}
+{"word": "very", "translation": "very 的副词形式，表示非常、极其；  "}
+{"word": "vs", "translation": "vs 的缩写，是 versus 的简写，表示“与……相对”或“对比”；  "}
+{"word": "walk", "translation": "walk 的动词原形，表示遍历（如遍历目录树）；  "}
+{"word": "webhook", "translation": "webhook 的名词形式，表示 Web 回调钩子（一种通过 HTTP 请求实现的事件通知机制）；  "}
+{"word": "width", "translation": "width 的名词形式，表示宽度；  "}
+{"word": "windows", "translation": "windows 的复数形式，通常指多个窗口 window，也可能特指 Microsoft Windows 操作系统；  "}
+{"word": "wins", "translation": "wins 的动词 win 的复数形式或第三人称单数形式，表示赢得、成功（如网络请求成功）；  "}
+{"word": "work", "translation": "work 的动词原形或名词，表示工作、运行、处理；  "}
+{"word": "wrapped", "translation": "wrapped 的动词 wrap 的过去分词/形容词形式，表示被封装的、被包装的；  "}
+{"word": "writes", "translation": "writes 的动词 write 的复数形式或第三人称单数形式，表示写入操作；  "}
+{"word": "year", "translation": "year 的名词形式，表示年；  "}
+{"word": "zhipu", "translation": "zhipu 的专有名词，指智谱（中国一家人工智能公司，Zhipu AI）；"}

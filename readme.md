@@ -20,3 +20,5 @@
 | Blackjack | 21点（Blackjack）游戏实现 | 初级 | [Blackjack](/Blackjack) |
 | gemini-fullstack-langgraph-quickstart | 基于Gemini和LangGraph的全栈AI应用 | 中级 | [gemini-fullstack-langgraph-quickstart](/gemini-fullstack-langgraph-quickstart) |
 | check_rubbish | 基于AG技术的智能文档问答系统、Fastapi+langchain+Vue| 中级 | [check_rubbish](/check_rubbish) |
+| learn-english-from-famous-project | 从知名开源项目中学习英语 | 初级 | [learn-english-from-famous-project](/learn-english-from-famous-project) |
+| generate_cards | 自动生成学习卡片（如单词卡） | 初级 | [generate_cards](/generate_cards) |
